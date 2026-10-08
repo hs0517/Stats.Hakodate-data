@@ -1,0 +1,353 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "DMN01",
+   "type": "Domain",
+   "part": {
+    "ja": "前付",
+    "en": "front matter"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/01(前付)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/01(前付)_pdf.zip"
+  },
+  {
+   "id": "DMN02",
+   "type": "Domain",
+   "part": {
+    "ja": "部門別解説",
+    "en": "departmental overview"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/02(部門別解説)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/02(部門別解説)_pdf.zip"
+  },
+  {
+   "id": "DMN03",
+   "type": "Domain",
+   "part": {
+    "ja": "行政",
+    "en": "government"
+   },
+   "topic": {
+    "ja": "気象",
+    "en": "meteorology"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/03(気象)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/03(気象)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/03(気象)_csv.zip"
+  },
+  {
+   "id": "DMN04",
+   "type": "Domain",
+   "part": {
+    "ja": "行政",
+    "en": "government"
+   },
+   "topic": {
+    "ja": "土地",
+    "en": "land"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/04(土地)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/04(土地)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/04(土地)_csv.zip"
+  },
+  {
+   "id": "DMN05",
+   "type": "Domain",
+   "part": {
+    "ja": "行政",
+    "en": "government"
+   },
+   "topic": {
+    "ja": "人口",
+    "en": "population"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/05(人口)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/05(人口)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/05(人口)_csv.zip"
+  },
+  {
+   "id": "DMN06",
+   "type": "Domain",
+   "part": {
+    "ja": "行政",
+    "en": "government"
+   },
+   "topic": {
+    "ja": "財政",
+    "en": "finance"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/06(財政)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/06(財政)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/06(財政)_csv.zip"
+  },
+  {
+   "id": "DMN07",
+   "type": "Domain",
+   "part": {
+    "ja": "行政",
+    "en": "government"
+   },
+   "topic": {
+    "ja": "選挙",
+    "en": "elections"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/07(選挙)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/07(選挙)_pdf.zip"
+  },
+  {
+   "id": "DMN08",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "農業",
+    "en": "agriculture"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/08(農業)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/08(農業)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/08(農業)_csv.zip"
+  },
+  {
+   "id": "DMN09",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "漁業",
+    "en": "fisheries"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/09(漁業)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/09(漁業)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/09(漁業)_csv.zip"
+  },
+  {
+   "id": "DMN10",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "露領漁業",
+    "en": "russian far eastern fisheries"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/10(露領漁業)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/10(露領漁業)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/10(露領漁業)_csv.zip"
+  },
+  {
+   "id": "DMN11",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "工業",
+    "en": "manufacturing"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/11(工業)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/11(工業)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/11(工業)_csv.zip"
+  },
+  {
+   "id": "DMN12",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "事業所",
+    "en": "enterprises"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/12(事業所)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/12(事業所)_pdf.zip"
+  },
+  {
+   "id": "DMN13",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "商業・金融",
+    "en": "commerce finance"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/13(商業-金融)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/13(商業-金融)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/13(商業-金融)_csv.zip"
+  },
+  {
+   "id": "DMN14",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "運輸・通信",
+    "en": "transport communications"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/14(運輸-通信)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/14(運輸-通信)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/14(運輸-通信)_csv.zip"
+  },
+  {
+   "id": "DMN15",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "内国貿易",
+    "en": "domestic trade"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/15(内国貿易)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/15(内国貿易)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/15(内国貿易)_csv.zip"
+  },
+  {
+   "id": "DMN16",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "外国貿易",
+    "en": "foreign trade"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/16(外国貿易)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/16(外国貿易)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/16(外国貿易)_csv.zip"
+  },
+  {
+   "id": "DMN17",
+   "type": "Domain",
+   "part": {
+    "ja": "産業・経済",
+    "en": "industry & economy"
+   },
+   "topic": {
+    "ja": "物価・賃金",
+    "en": "prices wages"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/17(物価-賃金)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/17(物価-賃金)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/17(物価-賃金)_csv.zip"
+  },
+  {
+   "id": "DMN18",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "司法・警察",
+    "en": "judiciary police"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/18(司法-警察)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/18(司法-警察)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/18(司法-警察)_csv.zip"
+  },
+  {
+   "id": "DMN19",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "風俗",
+    "en": "customs"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/19(風俗)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/19(風俗)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/19(風俗)_csv.zip"
+  },
+  {
+   "id": "DMN20",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "消防",
+    "en": "firefighting"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/20(消防)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/20(消防)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/20(消防)_csv.zip"
+  },
+  {
+   "id": "DMN21",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "衛生",
+    "en": "sanitation"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/21(衛生)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/21(衛生)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/21(衛生)_csv.zip"
+  },
+  {
+   "id": "DMN22",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "水道・電気・ガス",
+    "en": "water electricity gas"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/22(水道-電気-ガス)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/22(水道-電気-ガス)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/22(水道-電気-ガス)_csv.zip"
+  },
+  {
+   "id": "DMN23",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "教育",
+    "en": "education"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/23(教育)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/23(教育)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/23(教育)_csv.zip"
+  },
+  {
+   "id": "DMN24",
+   "type": "Domain",
+   "part": {
+    "ja": "社会・教育",
+    "en": "society & education"
+   },
+   "topic": {
+    "ja": "兵事",
+    "en": "military affairs"
+   },
+   "jpeg_zip_file_path": "/statistical-archives/zip/24(兵事)_jpeg.zip",
+   "pdf_zip_file_path": "/statistical-archives/zip/24(兵事)_pdf.zip",
+   "csv_zip_file_path": "/statistical-archives/zip/24(兵事)_csv.zip"
+  }
+ ]
+}
