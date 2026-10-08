@@ -1,0 +1,28 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {"id": "TBLxxxx", "type": "Table",
+   "components": [
+    {"component": "dim-time", "component_type": "dimension"},
+    {"component": "measure-xxx", "component_type": "measure"},
+    {"component": "unit-xxx", "component_type": "attribute"}]},
+  {"id": "TBLxxxx/SEG01", "type": "TableSegment",
+   "parts": [
+    {"id": "TBLxxxx/SEG01/table_title", "type": "TablePart", "part_type": "table_title", "text": "表題", "text_en": "Title", "coordinates": [0.1, 0.05, 0.6, 0.07]},
+    {"id": "TBLxxxx/SEG01/box_head", "type": "TablePart", "part_type": "box_head", "coordinates": [0.2, 0.1, 0.9, 0.2]},
+    {"id": "TBLxxxx/SEG01/body", "type": "TablePart", "part_type": "body", "coordinates": [0.2, 0.2, 0.9, 0.9]},
+    {"id": "TBLxxxx/SEG01/source_notes", "type": "TablePart", "part_type": "source_notes", "text": "資料 …", "coordinates": [0.1, 0.9, 0.5, 0.95],
+     "notes": [{"id": "TBLxxxx/NOTE01", "type": "Note", "note_type": "source", "text": "…", "text_en": "…", "applies_to": ["TBLxxxx/SEG01/row4"]}]}],
+   "rows": [{"id": "TBLxxxx/SEG01/row1", "type": "Row", "index": 1, "coordinates": [0.1, 0.1, 0.9, 0.15]}],
+   "columns": [{"id": "TBLxxxx/SEG01/colA", "type": "Column", "index": 1, "coordinates": [0.1, 0.1, 0.2, 0.9]}],
+   "cells": [
+    {"id": "TBLxxxx/SEG01/B1", "type": "Cell", "table_part": "TBLxxxx/SEG01/box_head", "cell_part": "box_head", "text": "見出し", "text_en": "Header",
+     "range": "B1:D1", "row_start": 1, "row_end": 1, "col_start": 2, "col_end": 4, "level": 1, "coordinates": [0.2, 0.1, 0.5, 0.15],
+     "verified": false, "denotes": ["xxx/01"]},
+    {"id": "TBLxxxx/SEG01/B4", "type": "Cell", "table_part": "TBLxxxx/SEG01/body", "cell_part": "body", "text": "1,234",
+     "range": "B4:B4", "row_start": 4, "row_end": 4, "col_start": 2, "col_end": 2, "coordinates": [0.2, 0.2, 0.3, 0.22],
+     "verified": false, "represents": "TBLxxxx/SEG01/B4/obs"}]},
+  {"id": "TBLxxxx/SEG01/B4/obs", "type": "Observation", "data_set": "TBLxxxx", "measure": "measure-xxx", "value": 1234,
+   "unit": "unit-xxx", "derived": false, "time": "Y1904", "dims": {"dim-xxx": "xxx/01"}}
+ ]
+}
