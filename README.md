@@ -8,19 +8,20 @@ TBL0180 は試しに作ったものだったので、表のデータと、その
 
 | ファイル | 内容 |
 |---|---|
-| context.jsonld | JSON のキーと RDF の語彙の対応表。次元を追加したら `tools/make_context.py` で作り直す |
-| vocabulary/code_lists.jsonld | コードリストと、その中のコード（TimePeriod・Area を含む） |
-| vocabulary/dimension_properties.jsonld, measures.jsonld, units.jsonld, obs_statuses.jsonld | 次元・測度・単位・観測値の状態 |
-| archives/domains.jsonld, pages.jsonld, page_regions.jsonld | 部門・ページ・柱とノンブル |
-| archives/tables.jsonld | 全608表と、そのセグメント（入れ子） |
-| tables/{table_id}.jsonld | 表ごとのレイアウト層（セグメント > 表の部分・注記・行・列・セル）と意味層（観測値、データ構造） |
-| tables/_template.jsonld | 新しい表の雛形（読み込み時には飛ばす） |
-| workshop/workshops.jsonld | ワークショップと、その中のセッション（対象の表、提示したページ、道具、参加者） |
-| workshop/persons.jsonld, instruments.jsonld | 人物・道具 |
-| workshop/annotations.jsonld | アノテーション（書き込み・発話）と、そのコード付け・参照 |
-| workshop/analysis_codes.jsonld | コーディングスキームと、その中のカテゴリ・分析コード |
-| import.cypher / import_table.cypher / import_references.cypher | Neo4j への読み込みに使う Cypher（`tools/load.py` から実行） |
-| tools/ | 読み込み（load.py）、context の再生成、RDF（Turtle）への書き出し、CSV からの移行スクリプト |
+| context.jsonld | JSON のキーと RDF の語彙の対応表。次元を追加したら、そのキーを手で追記する |
+| jsonld-vocabulary/code_lists.jsonld | コードリストと、その中のコード（TimePeriod・Area を含む） |
+| jsonld-vocabulary/dimension_properties.jsonld, measures.jsonld, units.jsonld, obs_statuses.jsonld | 次元・測度・単位・観測値の状態 |
+| jsonld-archives/domains.jsonld, pages.jsonld, page_regions.jsonld | 部門・ページ・柱とノンブル |
+| jsonld-archives/tables.jsonld | 全608表と、そのセグメント（入れ子） |
+| jsonld-tables/{table_id}.jsonld | 表ごとのレイアウト層（セグメント > 表の部分・注記・行・列・セル）と意味層（観測値、データ構造） |
+| jsonld-tables/_template.jsonld | 新しい表の雛形（読み込み時には飛ばす） |
+| jsonld-workshops/workshops.jsonld | ワークショップと、その中のセッション（対象の表、提示したページ、道具、参加者） |
+| jsonld-workshops/persons.jsonld, instruments.jsonld | 人物・道具 |
+| jsonld-workshops/annotations.jsonld | アノテーション（書き込み・発話）と、そのコード付け・参照 |
+| jsonld-workshops/analysis_codes.jsonld | コーディングスキームと、その中のカテゴリ・分析コード |
+| csv-* | JSON-LD に移す前の CSV（参照用。読み込みには使わない） |
+
+各 JSON-LD の `"@context": "../context.jsonld"` は、フォルダが1段の深さにある前提の相対パスです。フォルダの階層を変えるときは合わせて直します。
 
 ## JSON の書き方の決まり
 
@@ -32,27 +33,19 @@ TBL0180 は試しに作ったものだったので、表のデータと、その
 - **辺のプロパティは入れ子のオブジェクト**：参加記録（`participants`）、道具の使用（`instruments`）、コード付け（`codings`）、参照（`references`）、データ構造（`components`）は、辺のプロパティを持つオブジェクトとして親の中に書きます。
 - **次元の値は `dims`**：`"dims": {"dim-flow": "flow/04", "dim-direction": "direction/01"}` と書きます。RDF では「次元＝述語」（QB のとおり）になります。時点（`time`）と地域（`area`）だけは、`dims` の外に書きます。
 - **座標**：`coordinates` にリストで書きます。セルや領域は `[x1, y1, x2, y2]`、アノテーションは `[x, y]` で、どちらもページ画像に対する割合です。
+- **行・列の番号**：Row の `index`、Cell の `row_start` など、id の `row4` や `B4` の数字は、表頭の行も含めて表の上から数えた番号です（TBL0208 では表頭が row1–3 で、明治37年が row4）。注記の `applies_to` もこの番号で書きます。表体だけで数えると3行ずれるので注意します。
 - **キー名と Neo4j のプロパティ名が違う箇所**：JSON-LD の中で同じキー名を別の意味に使えないため、次の2つだけ名前が違います。
   - Cell の `cell_part`：Neo4j では `part`
   - CodeCategory・AnalysisCode の `label`：Neo4j では `value_ja` / `value_en`
 
 ## 読み込み（AuraDB を含む）
 
-読み込みは Python のスクリプト `tools/load.py` で行います。スクリプトが JSON-LD を読み、Cypher にパラメータ（`$graph`）として渡します。Neo4j 側のファイル置き場や `apoc.conf` の設定は不要なので、設定を変えられない AuraDB でもそのまま使えます。APOC Core（ラベルの付与に使用）は、AuraDB に標準で入っています。
+読み込みは、Web サーバー（さくらのレンタルサーバ）上の PHP から、AuraDB の Query API（HTTPS）を呼んで行います（準備中）。PHP が JSON-LD を読み、`@graph` の中身を Cypher のパラメータ（`$graph`）として渡します。Neo4j 側のファイル置き場や `apoc.conf` の設定は不要なので、設定を変えられない AuraDB でもそのまま使えます。
 
-```bash
-pip install neo4j
-export NEO4J_URI=neo4j+s://xxxxxxxx.databases.neo4j.io   # AuraDB の接続 URI
-export NEO4J_USER=neo4j
-export NEO4J_PASSWORD=...
-python tools/load.py --dry-run          # 流す内容の確認だけ（接続しない）
-python tools/load.py                    # 全部：共有データ → 全ての表 → 参照と確認クエリ
-python tools/load.py --table TBL0208    # その表だけ（表を追加・修正したとき）
-```
-
-- Cypher ファイルの中で `// @file <パス>` が付いた文には、その JSON-LD の `@graph` の中身が `$graph` として渡されます。
-- 表ごとの文には、表の id も `$tbl` として渡されます。
-- どの文も MERGE で書いているので、同じものを何度流しても重複しません。
+- 表は1つずつ、1つのトランザクションで反映します。表の id は `$tbl` として渡します。
+- どの文も MERGE で書くので、同じものを何度流しても重複しません。
+- 反映の前に、JSON と AuraDB の現在の状態を比べた差分（追加・変更・削除）を確認できるようにします。
+- AuraDB の接続情報は、このリポジトリにも公開フォルダにも置きません。
 
 ### 読み込み後の確認（期待される件数）
 
@@ -74,10 +67,10 @@ python tools/load.py --table TBL0208    # その表だけ（表を追加・修�
 
 ## 表を追加する手順
 
-1. `tables/_template.jsonld` をコピーして `tables/{table_id}.jsonld` を作ります。
-2. 新しい次元が必要なら、`vocabulary/dimension_properties.jsonld` とコードリストに追記し、`python tools/make_context.py .` で context を作り直します。
-3. `python tools/load.py --table {table_id}` を実行します。同じ表を再実行しても重複しません。
+1. `jsonld-tables/_template.jsonld` をコピーして `jsonld-tables/{table_id}.jsonld` を作ります。
+2. 新しい次元が必要なら、`jsonld-vocabulary/dimension_properties.jsonld` とコードリストに追記し、`context.jsonld` にもそのキーを追記します。
+3. 確認用の画面で内容を確認・保存し、AuraDB に反映します。同じ表を何度反映しても重複しません。
 
 ## RDF として使う
 
-JSON-LD はそのまま RDF なので、`python tools/jsonld_to_turtle.py . all.ttl` で Turtle に書き出せます（約3.5万トリプル）。
+JSON-LD はそのまま RDF なので、JSON-LD に対応したツール（Python の rdflib、JSON-LD Playground など）で、そのまま Turtle などに変換できます。
