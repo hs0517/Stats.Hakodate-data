@@ -1,0 +1,427 @@
+{
+ "@context": {
+  "@version": 1.1,
+  "@base": "https://w3id.org/stats-hakodate/id/",
+  "sho": "https://w3id.org/stats-hakodate/ontology#",
+  "shd": "https://w3id.org/stats-hakodate/id/",
+  "qb": "http://purl.org/linked-data/cube#",
+  "skos": "http://www.w3.org/2004/02/skos/core#",
+  "dct": "http://purl.org/dc/terms/",
+  "prov": "http://www.w3.org/ns/prov#",
+  "oa": "http://www.w3.org/ns/oa#",
+  "foaf": "http://xmlns.com/foaf/0.1/",
+  "schema": "https://schema.org/",
+  "sdmx-attribute": "http://purl.org/linked-data/sdmx/2009/attribute#",
+  "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#",
+  "xsd": "http://www.w3.org/2001/XMLSchema#",
+  "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+  "owl": "http://www.w3.org/2002/07/owl#",
+  "id": "@id",
+  "type": "@type",
+  "Domain": "sho:Domain",
+  "Page": "sho:Page",
+  "PageRegion": "sho:PageRegion",
+  "Table": "sho:Table",
+  "TableSegment": "sho:TableSegment",
+  "TablePart": "sho:TablePart",
+  "Row": "sho:Row",
+  "Column": "sho:Column",
+  "Cell": "sho:Cell",
+  "Note": "sho:Note",
+  "Observation": "qb:Observation",
+  "DimensionProperty": "qb:DimensionProperty",
+  "Measure": "qb:MeasureProperty",
+  "CodeList": "skos:ConceptScheme",
+  "Code": "skos:Concept",
+  "TimePeriod": "sho:TimePeriod",
+  "Area": "sho:Area",
+  "Attribute": "qb:AttributeProperty",
+  "Unit": "sho:Unit",
+  "ObsStatus": "sho:ObsStatus",
+  "Workshop": "sho:Workshop",
+  "Session": "sho:Session",
+  "Instrument": "sho:Instrument",
+  "Person": "foaf:Person",
+  "Annotation": "oa:Annotation",
+  "WrittenAnnotation": "sho:WrittenAnnotation",
+  "SpokenAnnotation": "sho:SpokenAnnotation",
+  "Coding": "sho:Coding",
+  "Reference": "sho:Reference",
+  "CodeScheme": "skos:ConceptScheme",
+  "CodeCategory": "skos:Concept",
+  "AnalysisCode": "skos:Concept",
+  "label": {
+   "@id": "skos:prefLabel",
+   "@container": "@language"
+  },
+  "name": {
+   "@id": "rdfs:label",
+   "@container": "@language"
+  },
+  "title": {
+   "@id": "dct:title",
+   "@container": "@language"
+  },
+  "notation": "skos:notation",
+  "uri": {
+   "@id": "owl:sameAs",
+   "@type": "@id"
+  },
+  "text": "sho:text",
+  "text_en": {
+   "@id": "sho:textEn",
+   "@language": "en"
+  },
+  "coordinates": {
+   "@id": "sho:coordinates",
+   "@container": "@list",
+   "@type": "xsd:decimal"
+  },
+  "part": {
+   "@id": "sho:part",
+   "@container": "@language"
+  },
+  "topic": {
+   "@id": "sho:topic",
+   "@container": "@language"
+  },
+  "jpeg_zip_file_path": "sho:jpegZipFile",
+  "pdf_zip_file_path": "sho:pdfZipFile",
+  "csv_zip_file_path": "sho:csvZipFile",
+  "domain": {
+   "@id": "sho:domain",
+   "@type": "@id"
+  },
+  "printed_number": "sho:printedNumber",
+  "image_index": {
+   "@id": "sho:imageIndex",
+   "@type": "xsd:integer"
+  },
+  "book_components": {
+   "@id": "sho:bookComponent",
+   "@container": "@language"
+  },
+  "page_label": {
+   "@id": "sho:pageLabel",
+   "@container": "@language"
+  },
+  "orientation": "sho:orientation",
+  "image_width": {
+   "@id": "schema:width",
+   "@type": "xsd:integer"
+  },
+  "image_height": {
+   "@id": "schema:height",
+   "@type": "xsd:integer"
+  },
+  "img_file_path": "schema:contentUrl",
+  "lq_img_file_path": "sho:lowResImage",
+  "page": {
+   "@id": "sho:onPage",
+   "@type": "@id"
+  },
+  "region_type": "sho:regionType",
+  "segments": {
+   "@id": "sho:hasSegment",
+   "@type": "@id"
+  },
+  "sequence": {
+   "@id": "sho:sequence",
+   "@type": "xsd:integer"
+  },
+  "is_continuation": {
+   "@id": "sho:isContinuation",
+   "@type": "xsd:boolean"
+  },
+  "parts": {
+   "@id": "sho:hasPart",
+   "@type": "@id"
+  },
+  "rows": {
+   "@id": "sho:hasRow",
+   "@type": "@id"
+  },
+  "columns": {
+   "@id": "sho:hasColumn",
+   "@type": "@id"
+  },
+  "cells": {
+   "@id": "sho:hasCell",
+   "@type": "@id"
+  },
+  "notes": {
+   "@id": "sho:hasNote",
+   "@type": "@id"
+  },
+  "part_type": "sho:partType",
+  "table_part": {
+   "@id": "sho:inTablePart",
+   "@type": "@id"
+  },
+  "cell_part": "sho:cellPart",
+  "range": "sho:range",
+  "row_start": {
+   "@id": "sho:rowStart",
+   "@type": "xsd:integer"
+  },
+  "row_end": {
+   "@id": "sho:rowEnd",
+   "@type": "xsd:integer"
+  },
+  "col_start": {
+   "@id": "sho:colStart",
+   "@type": "xsd:integer"
+  },
+  "col_end": {
+   "@id": "sho:colEnd",
+   "@type": "xsd:integer"
+  },
+  "index": {
+   "@id": "sho:index",
+   "@type": "xsd:integer"
+  },
+  "level": {
+   "@id": "sho:level",
+   "@type": "xsd:integer"
+  },
+  "verified": {
+   "@id": "sho:verified",
+   "@type": "xsd:boolean"
+  },
+  "verified_by": "sho:verifiedBy",
+  "subheader_of": {
+   "@id": "sho:subheaderOf",
+   "@type": "@id"
+  },
+  "denotes": {
+   "@id": "sho:denotes",
+   "@type": "@id"
+  },
+  "represents": {
+   "@id": "sho:represents",
+   "@type": "@id"
+  },
+  "note_type": "sho:noteType",
+  "marker": "sho:marker",
+  "applies_to": {
+   "@id": "sho:appliesTo",
+   "@type": "@id"
+  },
+  "components": {
+   "@id": "sho:hasComponent",
+   "@type": "@id"
+  },
+  "component": {
+   "@id": "sho:component",
+   "@type": "@id"
+  },
+  "component_type": "sho:componentType",
+  "data_set": {
+   "@id": "qb:dataSet",
+   "@type": "@id"
+  },
+  "measure": {
+   "@id": "qb:measureType",
+   "@type": "@id"
+  },
+  "value": "sho:value",
+  "unit": {
+   "@id": "sdmx-attribute:unitMeasure",
+   "@type": "@id"
+  },
+  "obs_status": {
+   "@id": "sdmx-attribute:obsStatus",
+   "@type": "@id"
+  },
+  "derived": {
+   "@id": "sho:derived",
+   "@type": "xsd:boolean"
+  },
+  "time": {
+   "@id": "sdmx-dimension:refPeriod",
+   "@type": "@id"
+  },
+  "area": {
+   "@id": "sdmx-dimension:refArea",
+   "@type": "@id"
+  },
+  "dims": "@nest",
+  "codes": {
+   "@reverse": "skos:inScheme",
+   "@type": "@id"
+  },
+  "broader": {
+   "@id": "skos:broader",
+   "@type": "@id"
+  },
+  "code_list": {
+   "@id": "qb:codeList",
+   "@type": "@id"
+  },
+  "period_type": "sho:periodType",
+  "western_year": {
+   "@id": "sho:westernYear",
+   "@type": "xsd:integer"
+  },
+  "era": {
+   "@id": "sho:era",
+   "@container": "@language"
+  },
+  "era_year": {
+   "@id": "sho:eraYear",
+   "@type": "xsd:integer"
+  },
+  "start_date": {
+   "@id": "sho:startDate",
+   "@type": "xsd:date"
+  },
+  "end_date": {
+   "@id": "sho:endDate",
+   "@type": "xsd:date"
+  },
+  "valid_from": "sho:validFrom",
+  "valid_to": "sho:validTo",
+  "std_area_code": "sho:stdAreaCode",
+  "symbol": "sho:symbol",
+  "sum_type": {
+   "@id": "sho:sumType",
+   "@type": "xsd:integer"
+  },
+  "date": {
+   "@id": "dct:date",
+   "@type": "xsd:date"
+  },
+  "place": {
+   "@id": "sho:place",
+   "@container": "@language"
+  },
+  "sessions": {
+   "@id": "sho:hasSession",
+   "@type": "@id"
+  },
+  "annotation_mode": "sho:annotationMode",
+  "start_time": "prov:startedAtTime",
+  "duration": {
+   "@id": "schema:duration",
+   "@type": "xsd:duration"
+  },
+  "targets": {
+   "@id": "sho:targets",
+   "@type": "@id"
+  },
+  "presented": {
+   "@id": "sho:presented",
+   "@type": "@id"
+  },
+  "instruments": {
+   "@id": "prov:qualifiedUsage",
+   "@type": "@id"
+  },
+  "instrument": {
+   "@id": "prov:entity",
+   "@type": "@id"
+  },
+  "role": "prov:hadRole",
+  "participants": {
+   "@id": "prov:qualifiedAssociation",
+   "@type": "@id"
+  },
+  "person": {
+   "@id": "prov:agent",
+   "@type": "@id"
+  },
+  "joined_midway": {
+   "@id": "sho:joinedMidway",
+   "@type": "xsd:boolean"
+  },
+  "joined_at": "sho:joinedAt",
+  "left_at": "sho:leftAt",
+  "status": "sho:status",
+  "affiliation": {
+   "@id": "sho:affiliation",
+   "@container": "@language"
+  },
+  "residence": {
+   "@id": "sho:residence",
+   "@container": "@language"
+  },
+  "display_name": "foaf:nick",
+  "gender": "schema:gender",
+  "created_in": {
+   "@id": "prov:wasGeneratedBy",
+   "@type": "@id"
+  },
+  "annotated_by": {
+   "@id": "dct:creator",
+   "@type": "@id"
+  },
+  "annotated_on": {
+   "@id": "sho:annotatedOn",
+   "@type": "@id"
+  },
+  "seq": {
+   "@id": "sho:seq",
+   "@type": "xsd:integer"
+  },
+  "annotation_timing": "sho:annotationTiming",
+  "elapsed_time": "sho:elapsedTime",
+  "nc_img_file_path": "sho:noContextImageFile",
+  "audio_file_path": "sho:audioFile",
+  "transcription_status": "sho:transcriptionStatus",
+  "transcribed_by": "sho:transcribedBy",
+  "elapsed_start": "sho:elapsedStart",
+  "elapsed_end": "sho:elapsedEnd",
+  "media_file_path": "sho:mediaFile",
+  "codings": {
+   "@reverse": "oa:hasTarget",
+   "@type": "@id"
+  },
+  "code": {
+   "@id": "oa:hasBody",
+   "@type": "@id"
+  },
+  "coder": "sho:coder",
+  "references": {
+   "@id": "sho:hasReference",
+   "@type": "@id"
+  },
+  "target": {
+   "@id": "sho:referent",
+   "@type": "@id"
+  },
+  "order": {
+   "@id": "sho:order",
+   "@type": "xsd:integer"
+  },
+  "operation": "sho:operation",
+  "version": "owl:versionInfo",
+  "categories": {
+   "@reverse": "skos:inScheme",
+   "@type": "@id"
+  },
+  "category": {
+   "@id": "skos:broader",
+   "@type": "@id"
+  },
+  "dim-time": {
+   "@id": "shd:dim-time",
+   "@type": "@id"
+  },
+  "dim-area": {
+   "@id": "shd:dim-area",
+   "@type": "@id"
+  },
+  "dim-transport": {
+   "@id": "shd:dim-transport",
+   "@type": "@id"
+  },
+  "dim-flow": {
+   "@id": "shd:dim-flow",
+   "@type": "@id"
+  },
+  "dim-direction": {
+   "@id": "shd:dim-direction",
+   "@type": "@id"
+  }
+ }
+}
