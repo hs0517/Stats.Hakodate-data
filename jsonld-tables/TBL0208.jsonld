@@ -135,7 +135,10 @@
         "TBL0208/SEG01/row12",
         "TBL0208/SEG01/row13",
         "TBL0208/SEG01/row14",
-        "TBL0208/SEG01/row15"
+        "TBL0208/SEG01/row15",
+        "TBL0208/SEG01/row16",
+        "TBL0208/SEG01/row17",
+        "TBL0208/SEG01/row18"
        ]
       },
       {
@@ -145,12 +148,12 @@
        "text": "大正8～13年 函館商業会議所年報",
        "text_en": "Taisho 8–13: Annual Report of the Hakodate Chamber of Commerce",
        "applies_to": [
-        "TBL0208/SEG01/row16",
-        "TBL0208/SEG01/row17",
-        "TBL0208/SEG01/row18",
         "TBL0208/SEG01/row19",
         "TBL0208/SEG01/row20",
-        "TBL0208/SEG01/row21"
+        "TBL0208/SEG01/row21",
+        "TBL0208/SEG01/row22",
+        "TBL0208/SEG01/row23",
+        "TBL0208/SEG01/row24"
        ]
       },
       {
@@ -160,12 +163,12 @@
        "text": "大正14～昭和5年 函館市統計",
        "text_en": "Taisho 14–Showa 5: Hakodate City Statistics",
        "applies_to": [
-        "TBL0208/SEG01/row22",
-        "TBL0208/SEG01/row23",
-        "TBL0208/SEG01/row24",
         "TBL0208/SEG01/row25",
         "TBL0208/SEG01/row26",
-        "TBL0208/SEG01/row27"
+        "TBL0208/SEG01/row27",
+        "TBL0208/SEG01/row28",
+        "TBL0208/SEG01/row29",
+        "TBL0208/SEG01/row30"
        ]
       },
       {
@@ -175,9 +178,6 @@
        "text": "昭和6～15年 函館商工会議所年報",
        "text_en": "Showa 6–15: Annual Report of the Hakodate Chamber of Commerce and Industry",
        "applies_to": [
-        "TBL0208/SEG01/row28",
-        "TBL0208/SEG01/row29",
-        "TBL0208/SEG01/row30",
         "TBL0208/SEG01/row31",
         "TBL0208/SEG01/row32",
         "TBL0208/SEG01/row33",
