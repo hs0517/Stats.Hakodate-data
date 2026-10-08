@@ -1,0 +1,77 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "unavailable",
+   "type": [
+    "Attribute",
+    "ObsStatus"
+   ],
+   "symbol": "…",
+   "label": {
+    "ja": "不詳・資料なし",
+    "en": "Not available"
+   }
+  },
+  {
+   "id": "nil",
+   "type": [
+    "Attribute",
+    "ObsStatus"
+   ],
+   "symbol": "―",
+   "label": {
+    "ja": "皆無・該当なし",
+    "en": "Nil / not applicable"
+   }
+  },
+  {
+   "id": "negligible",
+   "type": [
+    "Attribute",
+    "ObsStatus"
+   ],
+   "symbol": "0",
+   "label": {
+    "ja": "単位未満",
+    "en": "Less than half the unit"
+   }
+  },
+  {
+   "id": "confidential",
+   "type": [
+    "Attribute",
+    "ObsStatus"
+   ],
+   "symbol": "x",
+   "label": {
+    "ja": "秘匿",
+    "en": "Confidential"
+   }
+  },
+  {
+   "id": "provisional",
+   "type": [
+    "Attribute",
+    "ObsStatus"
+   ],
+   "symbol": "p",
+   "label": {
+    "ja": "速報値",
+    "en": "Provisional"
+   }
+  },
+  {
+   "id": "revised",
+   "type": [
+    "Attribute",
+    "ObsStatus"
+   ],
+   "symbol": "r",
+   "label": {
+    "ja": "訂正値",
+    "en": "Revised"
+   }
+  }
+ ]
+}

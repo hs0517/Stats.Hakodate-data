@@ -1,0 +1,791 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "time",
+   "type": "CodeList",
+   "label": {
+    "ja": "時点",
+    "en": "Time period"
+   },
+   "codes": [
+    {
+     "id": "Y1904",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治37年",
+      "en": "Meiji 37 (1904)"
+     },
+     "period_type": "year",
+     "western_year": 1904,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 37
+    },
+    {
+     "id": "Y1905",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治38年",
+      "en": "Meiji 38 (1905)"
+     },
+     "period_type": "year",
+     "western_year": 1905,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 38
+    },
+    {
+     "id": "Y1906",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治39年",
+      "en": "Meiji 39 (1906)"
+     },
+     "period_type": "year",
+     "western_year": 1906,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 39
+    },
+    {
+     "id": "Y1907",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治40年",
+      "en": "Meiji 40 (1907)"
+     },
+     "period_type": "year",
+     "western_year": 1907,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 40
+    },
+    {
+     "id": "Y1908",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治41年",
+      "en": "Meiji 41 (1908)"
+     },
+     "period_type": "year",
+     "western_year": 1908,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 41
+    },
+    {
+     "id": "Y1909",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治42年",
+      "en": "Meiji 42 (1909)"
+     },
+     "period_type": "year",
+     "western_year": 1909,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 42
+    },
+    {
+     "id": "Y1910",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治43年",
+      "en": "Meiji 43 (1910)"
+     },
+     "period_type": "year",
+     "western_year": 1910,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 43
+    },
+    {
+     "id": "Y1911",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "明治44年",
+      "en": "Meiji 44 (1911)"
+     },
+     "period_type": "year",
+     "western_year": 1911,
+     "era": {
+      "ja": "明治",
+      "en": "Meiji"
+     },
+     "era_year": 44
+    },
+    {
+     "id": "Y1912",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正1年",
+      "en": "Taisho 1 (1912)"
+     },
+     "period_type": "year",
+     "western_year": 1912,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 1
+    },
+    {
+     "id": "Y1913",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正2年",
+      "en": "Taisho 2 (1913)"
+     },
+     "period_type": "year",
+     "western_year": 1913,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 2
+    },
+    {
+     "id": "Y1914",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正3年",
+      "en": "Taisho 3 (1914)"
+     },
+     "period_type": "year",
+     "western_year": 1914,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 3
+    },
+    {
+     "id": "Y1915",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正4年",
+      "en": "Taisho 4 (1915)"
+     },
+     "period_type": "year",
+     "western_year": 1915,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 4
+    },
+    {
+     "id": "Y1916",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正5年",
+      "en": "Taisho 5 (1916)"
+     },
+     "period_type": "year",
+     "western_year": 1916,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 5
+    },
+    {
+     "id": "Y1917",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正6年",
+      "en": "Taisho 6 (1917)"
+     },
+     "period_type": "year",
+     "western_year": 1917,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 6
+    },
+    {
+     "id": "Y1918",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正7年",
+      "en": "Taisho 7 (1918)"
+     },
+     "period_type": "year",
+     "western_year": 1918,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 7
+    },
+    {
+     "id": "Y1919",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正8年",
+      "en": "Taisho 8 (1919)"
+     },
+     "period_type": "year",
+     "western_year": 1919,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 8
+    },
+    {
+     "id": "Y1920",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正9年",
+      "en": "Taisho 9 (1920)"
+     },
+     "period_type": "year",
+     "western_year": 1920,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 9
+    },
+    {
+     "id": "Y1921",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正10年",
+      "en": "Taisho 10 (1921)"
+     },
+     "period_type": "year",
+     "western_year": 1921,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 10
+    },
+    {
+     "id": "Y1922",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正11年",
+      "en": "Taisho 11 (1922)"
+     },
+     "period_type": "year",
+     "western_year": 1922,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 11
+    },
+    {
+     "id": "Y1923",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正12年",
+      "en": "Taisho 12 (1923)"
+     },
+     "period_type": "year",
+     "western_year": 1923,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 12
+    },
+    {
+     "id": "Y1924",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正13年",
+      "en": "Taisho 13 (1924)"
+     },
+     "period_type": "year",
+     "western_year": 1924,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 13
+    },
+    {
+     "id": "Y1925",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "大正14年",
+      "en": "Taisho 14 (1925)"
+     },
+     "period_type": "year",
+     "western_year": 1925,
+     "era": {
+      "ja": "大正",
+      "en": "Taisho"
+     },
+     "era_year": 14
+    },
+    {
+     "id": "Y1926",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和1年",
+      "en": "Showa 1 (1926)"
+     },
+     "period_type": "year",
+     "western_year": 1926,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 1
+    },
+    {
+     "id": "Y1927",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和2年",
+      "en": "Showa 2 (1927)"
+     },
+     "period_type": "year",
+     "western_year": 1927,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 2
+    },
+    {
+     "id": "Y1928",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和3年",
+      "en": "Showa 3 (1928)"
+     },
+     "period_type": "year",
+     "western_year": 1928,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 3
+    },
+    {
+     "id": "Y1929",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和4年",
+      "en": "Showa 4 (1929)"
+     },
+     "period_type": "year",
+     "western_year": 1929,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 4
+    },
+    {
+     "id": "Y1930",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和5年",
+      "en": "Showa 5 (1930)"
+     },
+     "period_type": "year",
+     "western_year": 1930,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 5
+    },
+    {
+     "id": "Y1931",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和6年",
+      "en": "Showa 6 (1931)"
+     },
+     "period_type": "year",
+     "western_year": 1931,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 6
+    },
+    {
+     "id": "Y1932",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和7年",
+      "en": "Showa 7 (1932)"
+     },
+     "period_type": "year",
+     "western_year": 1932,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 7
+    },
+    {
+     "id": "Y1933",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和8年",
+      "en": "Showa 8 (1933)"
+     },
+     "period_type": "year",
+     "western_year": 1933,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 8
+    },
+    {
+     "id": "Y1934",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和9年",
+      "en": "Showa 9 (1934)"
+     },
+     "period_type": "year",
+     "western_year": 1934,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 9
+    },
+    {
+     "id": "Y1935",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和10年",
+      "en": "Showa 10 (1935)"
+     },
+     "period_type": "year",
+     "western_year": 1935,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 10
+    },
+    {
+     "id": "Y1936",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和11年",
+      "en": "Showa 11 (1936)"
+     },
+     "period_type": "year",
+     "western_year": 1936,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 11
+    },
+    {
+     "id": "Y1937",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和12年",
+      "en": "Showa 12 (1937)"
+     },
+     "period_type": "year",
+     "western_year": 1937,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 12
+    },
+    {
+     "id": "Y1938",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和13年",
+      "en": "Showa 13 (1938)"
+     },
+     "period_type": "year",
+     "western_year": 1938,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 13
+    },
+    {
+     "id": "Y1939",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和14年",
+      "en": "Showa 14 (1939)"
+     },
+     "period_type": "year",
+     "western_year": 1939,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 14
+    },
+    {
+     "id": "Y1940",
+     "type": [
+      "Code",
+      "TimePeriod"
+     ],
+     "label": {
+      "ja": "昭和15年",
+      "en": "Showa 15 (1940)"
+     },
+     "period_type": "year",
+     "western_year": 1940,
+     "era": {
+      "ja": "昭和",
+      "en": "Showa"
+     },
+     "era_year": 15
+    }
+   ]
+  },
+  {
+   "id": "area",
+   "type": "CodeList",
+   "label": {
+    "ja": "地域",
+    "en": "Area"
+   }
+  },
+  {
+   "id": "transport",
+   "type": "CodeList",
+   "label": {
+    "ja": "輸送区分",
+    "en": "Transport type"
+   },
+   "codes": [
+    {
+     "id": "transport/01",
+     "type": "Code",
+     "label": {
+      "ja": "人員",
+      "en": "Passengers"
+     }
+    },
+    {
+     "id": "transport/02",
+     "type": "Code",
+     "label": {
+      "ja": "貨物",
+      "en": "Freight"
+     }
+    }
+   ]
+  },
+  {
+   "id": "flow",
+   "type": "CodeList",
+   "label": {
+    "ja": "発着区分",
+    "en": "Traffic flow"
+   },
+   "codes": [
+    {
+     "id": "flow/01",
+     "type": "Code",
+     "label": {
+      "ja": "乗客",
+      "en": "Boarding"
+     }
+    },
+    {
+     "id": "flow/02",
+     "type": "Code",
+     "label": {
+      "ja": "降客",
+      "en": "Alighting"
+     }
+    },
+    {
+     "id": "flow/03",
+     "type": "Code",
+     "label": {
+      "ja": "到着",
+      "en": "Arrivals"
+     }
+    },
+    {
+     "id": "flow/04",
+     "type": "Code",
+     "label": {
+      "ja": "発送",
+      "en": "Dispatches"
+     }
+    },
+    {
+     "id": "flow/05",
+     "type": "Code",
+     "label": {
+      "ja": "計",
+      "en": "Total"
+     }
+    }
+   ]
+  },
+  {
+   "id": "direction",
+   "type": "CodeList",
+   "label": {
+    "ja": "上り下り",
+    "en": "Direction"
+   },
+   "codes": [
+    {
+     "id": "direction/01",
+     "type": "Code",
+     "label": {
+      "ja": "上り",
+      "en": "Inbound"
+     }
+    },
+    {
+     "id": "direction/02",
+     "type": "Code",
+     "label": {
+      "ja": "下り",
+      "en": "Outbound"
+     }
+    }
+   ]
+  }
+ ]
+}

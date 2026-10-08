@@ -1,0 +1,27 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "unit-person",
+   "type": [
+    "Attribute",
+    "Unit"
+   ],
+   "label": {
+    "ja": "人",
+    "en": "person"
+   }
+  },
+  {
+   "id": "unit-ton",
+   "type": [
+    "Attribute",
+    "Unit"
+   ],
+   "label": {
+    "ja": "t",
+    "en": "metric ton"
+   }
+  }
+ ]
+}

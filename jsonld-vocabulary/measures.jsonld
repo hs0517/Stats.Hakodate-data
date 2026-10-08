@@ -1,0 +1,23 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "measure-persons",
+   "type": "Measure",
+   "label": {
+    "ja": "人数",
+    "en": "Number of persons"
+   },
+   "derived": false
+  },
+  {
+   "id": "measure-weight",
+   "type": "Measure",
+   "label": {
+    "ja": "重量",
+    "en": "Weight"
+   },
+   "derived": false
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "dim-time",
+   "type": "DimensionProperty",
+   "label": {
+    "ja": "時点",
+    "en": "Time period"
+   },
+   "code_list": "time"
+  },
+  {
+   "id": "dim-area",
+   "type": "DimensionProperty",
+   "label": {
+    "ja": "地域",
+    "en": "Area"
+   },
+   "code_list": "area"
+  },
+  {
+   "id": "dim-transport",
+   "type": "DimensionProperty",
+   "label": {
+    "ja": "輸送区分",
+    "en": "Transport type"
+   },
+   "code_list": "transport"
+  },
+  {
+   "id": "dim-flow",
+   "type": "DimensionProperty",
+   "label": {
+    "ja": "発着区分",
+    "en": "Traffic flow"
+   },
+   "code_list": "flow"
+  },
+  {
+   "id": "dim-direction",
+   "type": "DimensionProperty",
+   "label": {
+    "ja": "上り下り",
+    "en": "Direction"
+   },
+   "code_list": "direction"
+  }
+ ]
+}
