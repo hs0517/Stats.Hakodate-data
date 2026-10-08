@@ -1,0 +1,924 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "CS01",
+   "type": "CodeScheme",
+   "name": {
+    "ja": "アノテーションにおける参照プロセスの分類",
+    "en": "Classification of Reference Processes in Annotations"
+   },
+   "version": "1.0",
+   "categories": [
+    {
+     "id": "CS01/A",
+     "type": "CodeCategory",
+     "notation": "A",
+     "label": {
+      "ja": "カラム（表頭）、あるいはレコード（表側）単位でフィールド値に着目し、その値の大きさや、その変化や傾向に言及するもの",
+      "en": "Focuses on field values per column (box head) or record (stub) and mentions their magnitude, changes, or trends"
+     }
+    },
+    {
+     "id": "CS01/B",
+     "type": "CodeCategory",
+     "notation": "B",
+     "label": {
+      "ja": "複数のカラム、あるいはレコード間で、それぞれに含まれる複数のフィールド値の変化の傾向に言及するもの",
+      "en": "Mentions trends in changes of multiple field values contained in multiple columns or records"
+     }
+    },
+    {
+     "id": "CS01/C",
+     "type": "CodeCategory",
+     "notation": "C",
+     "label": {
+      "ja": "カラムあるいはレコードに含まれるフィールド値に着目し、そのカラム名やレコード名の意味を解釈した上でその値について言及するもの",
+      "en": "Focuses on field values in a column or record and comments on them after interpreting the meaning of the column or record name"
+     }
+    },
+    {
+     "id": "CS01/D",
+     "type": "CodeCategory",
+     "notation": "D",
+     "label": {
+      "ja": "1個あるいは複数個のフィールド値に着目した上で、それを含むカラムあるいはレコードの特徴やそれが示唆するところについて言及するもの",
+      "en": "Focuses on one or more field values and comments on the features of, or what is suggested by, the column or record that contains them"
+     }
+    },
+    {
+     "id": "CS01/F",
+     "type": "CodeCategory",
+     "notation": "F",
+     "label": {
+      "ja": "カラム（表頭）名、あるいはレコード（表側）名に着目しその解釈を試みたりそれに疑問を呈するもの",
+      "en": "Focuses on column (box head) or record (stub) names and tries to interpret or questions them"
+     }
+    },
+    {
+     "id": "CS01/G",
+     "type": "CodeCategory",
+     "notation": "G",
+     "label": {
+      "ja": "表体の構造やレイアウトに着目するもの",
+      "en": "Focuses on the structure or layout of the table body"
+     }
+    },
+    {
+     "id": "CS01/H",
+     "type": "CodeCategory",
+     "notation": "H",
+     "label": {
+      "ja": "表全体のフィールド値に対するアノテーション",
+      "en": "Annotation on the field values of the whole table"
+     }
+    },
+    {
+     "id": "CS01/I",
+     "type": "CodeCategory",
+     "notation": "I",
+     "label": {
+      "ja": "統計表中の記号の使われ方に対する疑問や解釈",
+      "en": "Questions or interpretations of how symbols are used in the statistical table"
+     }
+    },
+    {
+     "id": "CS01/J",
+     "type": "CodeCategory",
+     "notation": "J",
+     "label": {
+      "ja": "統計表の注釈や脚注に、注意や疑問を呈するもの",
+      "en": "Calls attention to or questions notes or footnotes of the statistical table"
+     }
+    },
+    {
+     "id": "CS01/K",
+     "type": "CodeCategory",
+     "notation": "K",
+     "label": {
+      "ja": "統計表に含まれていない（カラムやレコードとしての）属性に言及（要望）するもの",
+      "en": "Mentions attributes (as columns or records) not included in the statistical table"
+     }
+    },
+    {
+     "id": "CS01/L",
+     "type": "CodeCategory",
+     "notation": "L",
+     "label": {
+      "ja": "表題に言及するもの",
+      "en": "Mentions the table title"
+     }
+    },
+    {
+     "id": "CS01/M",
+     "type": "CodeCategory",
+     "notation": "M",
+     "label": {
+      "ja": "統計表中の単位に着目するもの",
+      "en": "Focuses on units in the statistical table"
+     }
+    }
+   ],
+   "codes": [
+    {
+     "id": "CS01/C001",
+     "type": "AnalysisCode",
+     "notation": "C001",
+     "label": {
+      "ja": "2つのカラム間でそれぞれ1つのフィールド値同士を比較",
+      "en": "Compares one field value each between two columns"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C002",
+     "type": "AnalysisCode",
+     "notation": "C002",
+     "label": {
+      "ja": "2つのカラム間でそれぞれ複数のフィールド値同士を比較",
+      "en": "Compares multiple field values each between two columns"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C003",
+     "type": "AnalysisCode",
+     "notation": "C003",
+     "label": {
+      "ja": "2つ（前後）のレコード間でそれぞれ複数のフィールド値同士を比較",
+      "en": "Compares multiple field values each between two (adjacent) records"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C004",
+     "type": "AnalysisCode",
+     "notation": "C004",
+     "label": {
+      "ja": "2つ（前後）のレコード間でそれぞれ1つのフィールド値同士を比較",
+      "en": "Compares one field value each between two (adjacent) records"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C005",
+     "type": "AnalysisCode",
+     "notation": "C005",
+     "label": {
+      "ja": "複数のカラム間でそれぞれ複数のフィールド値同士を比較",
+      "en": "Compares multiple field values each across multiple columns"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C006",
+     "type": "AnalysisCode",
+     "notation": "C006",
+     "label": {
+      "ja": "1つのフィールド値とカラムの全体のフィールド値を比較",
+      "en": "Compares one field value with all field values of the column"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C007",
+     "type": "AnalysisCode",
+     "notation": "C007",
+     "label": {
+      "ja": "特定のカラム名（複数のカラム）を見てそのフィールド値の傾向に言及",
+      "en": "Looks at specific column name(s) and mentions the trend of their field values"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C008",
+     "type": "AnalysisCode",
+     "notation": "C008",
+     "label": {
+      "ja": "複数のカラムにまたがる構造（レイアウト）を解釈",
+      "en": "Interprets a structure (layout) spanning multiple columns"
+     },
+     "category": "CS01/G"
+    },
+    {
+     "id": "CS01/C009",
+     "type": "AnalysisCode",
+     "notation": "C009",
+     "label": {
+      "ja": "同じレコードの複数のカラム間の値の関係に疑問/仮説を提示",
+      "en": "Raises a question/hypothesis about the relationship between values in multiple columns of the same record"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C010",
+     "type": "AnalysisCode",
+     "notation": "C010",
+     "label": {
+      "ja": "特定のカラムのフィールド値の大きさに常識的見地から言及（勝手に推測）",
+      "en": "Mentions the magnitude of field values in a specific column from a common-sense standpoint (own guess)"
+     }
+    },
+    {
+     "id": "CS01/C011",
+     "type": "AnalysisCode",
+     "notation": "C011",
+     "label": {
+      "ja": "全てのカラム名（地名）と現状との関連付けへの疑問を提示",
+      "en": "Questions how all column names (place names) relate to the present day"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C012",
+     "type": "AnalysisCode",
+     "notation": "C012",
+     "label": {
+      "ja": "特定のカラムのフィールド値に対して推察される状況描写に言及",
+      "en": "Describes a situation inferred from field values in a specific column"
+     }
+    },
+    {
+     "id": "CS01/C013",
+     "type": "AnalysisCode",
+     "notation": "C013",
+     "label": {
+      "ja": "文字の解釈（特定のカラムの値の単位）",
+      "en": "Interprets characters (the unit of values in a specific column)"
+     },
+     "category": "CS01/M"
+    },
+    {
+     "id": "CS01/C014",
+     "type": "AnalysisCode",
+     "notation": "C014",
+     "label": {
+      "ja": "特定のカラム名（表頭）に注目",
+      "en": "Focuses on a specific column name (box head)"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C015",
+     "type": "AnalysisCode",
+     "notation": "C015",
+     "label": {
+      "ja": "表外の注釈（データの出典/記号の使い方）を解釈し注意喚起",
+      "en": "Interprets notes outside the table body (data source / use of symbols) and calls attention to them"
+     },
+     "category": "CS01/J"
+    },
+    {
+     "id": "CS01/C016",
+     "type": "AnalysisCode",
+     "notation": "C016",
+     "label": {
+      "ja": "表体の特定範囲（値がないところ）に注目",
+      "en": "Focuses on a specific area of the table body (where values are missing)"
+     },
+     "category": "CS01/G"
+    },
+    {
+     "id": "CS01/C017",
+     "type": "AnalysisCode",
+     "notation": "C017",
+     "label": {
+      "ja": "特定のレコードの値（年）の欠損に言及",
+      "en": "Mentions missing values (years) in a specific record"
+     }
+    },
+    {
+     "id": "CS01/C018",
+     "type": "AnalysisCode",
+     "notation": "C018",
+     "label": {
+      "ja": "表中にはない属性とその値に対する要望や理由の推察",
+      "en": "Requests an attribute and its values not in the table, or infers why they are absent"
+     },
+     "category": "CS01/K"
+    },
+    {
+     "id": "CS01/C019",
+     "type": "AnalysisCode",
+     "notation": "C019",
+     "label": {
+      "ja": "特定のカラム名の解釈",
+      "en": "Interprets a specific column name"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C020",
+     "type": "AnalysisCode",
+     "notation": "C020",
+     "label": {
+      "ja": "特定のカラム名（複数のカラム）を見てたまたま見つけたであろうフィールド値の変化に言及",
+      "en": "Looks at specific column name(s) and mentions a change in field values found by chance"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C021",
+     "type": "AnalysisCode",
+     "notation": "C021",
+     "label": {
+      "ja": "特定のカラムのフィールド値の変化/傾向に対して推察される状況描写（他のデータとか）に言及",
+      "en": "Describes a situation (e.g., other data) inferred from the change/trend of field values in a specific column"
+     }
+    },
+    {
+     "id": "CS01/C022",
+     "type": "AnalysisCode",
+     "notation": "C022",
+     "label": {
+      "ja": "不明、謎、わからない",
+      "en": "Unclear, puzzling, or not understood"
+     }
+    },
+    {
+     "id": "CS01/C023",
+     "type": "AnalysisCode",
+     "notation": "C023",
+     "label": {
+      "ja": "カラムに無関係に値の増えてるところ/減ってるところに注目",
+      "en": "Focuses on where values increase/decrease regardless of column"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C024",
+     "type": "AnalysisCode",
+     "notation": "C024",
+     "label": {
+      "ja": "表中の注釈に疑問を提示",
+      "en": "Raises a question about notes in the table"
+     },
+     "category": "CS01/J"
+    },
+    {
+     "id": "CS01/C025",
+     "type": "AnalysisCode",
+     "notation": "C025",
+     "label": {
+      "ja": "複数のカラム間でそれぞれ複数のフィールド値の変化の傾向（正負の相関？）の関連性に注目/疑問を提示",
+      "en": "Focuses on / questions the relationship (positive or negative correlation?) between trends of multiple field values across multiple columns"
+     },
+     "category": "CS01/B"
+    },
+    {
+     "id": "CS01/C026",
+     "type": "AnalysisCode",
+     "notation": "C026",
+     "label": {
+      "ja": "表題に注目（意味不明教えて）",
+      "en": "Focuses on the table title (meaning unclear; asks for explanation)"
+     },
+     "category": "CS01/L"
+    },
+    {
+     "id": "CS01/C027",
+     "type": "AnalysisCode",
+     "notation": "C027",
+     "label": {
+      "ja": "表側の項目名に注目（字が読めない教えて）",
+      "en": "Focuses on a stub item name (cannot read the characters; asks for explanation)"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C028",
+     "type": "AnalysisCode",
+     "notation": "C028",
+     "label": {
+      "ja": "表側の項目名に注目（字が読めるけど意味不明教えて）",
+      "en": "Focuses on a stub item name (can read it but the meaning is unclear; asks for explanation)"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C029",
+     "type": "AnalysisCode",
+     "notation": "C029",
+     "label": {
+      "ja": "単位の要素間の関係（意味不明教えて）",
+      "en": "Relationship between elements of units (meaning unclear; asks for explanation)"
+     },
+     "category": "CS01/M"
+    },
+    {
+     "id": "CS01/C030",
+     "type": "AnalysisCode",
+     "notation": "C030",
+     "label": {
+      "ja": "単位から推察される状況描写に言及",
+      "en": "Describes a situation inferred from the unit"
+     },
+     "category": "CS01/M"
+    },
+    {
+     "id": "CS01/C031",
+     "type": "AnalysisCode",
+     "notation": "C031",
+     "label": {
+      "ja": "特定のレコードのフィールド値について他のレコードの値と比較",
+      "en": "Compares field values of a specific record with values of other records"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C032",
+     "type": "AnalysisCode",
+     "notation": "C032",
+     "label": {
+      "ja": "特定のレコード名（複数のレコード）を見てそのフィールド値の傾向に言及",
+      "en": "Looks at specific record name(s) and mentions the trend of their field values"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C033",
+     "type": "AnalysisCode",
+     "notation": "C033",
+     "label": {
+      "ja": "特定のカラムのフィールド値に対して当時の状況との関連付けへの疑問/推察",
+      "en": "Questions/infers how field values in a specific column relate to the situation at the time"
+     }
+    },
+    {
+     "id": "CS01/C034",
+     "type": "AnalysisCode",
+     "notation": "C034",
+     "label": {
+      "ja": "表側の項目名に注目（規則性からの逸脱に言及）",
+      "en": "Focuses on stub item names (mentions a deviation from regularity)"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C035",
+     "type": "AnalysisCode",
+     "notation": "C035",
+     "label": {
+      "ja": "表外の注釈を解釈し疑問を提示",
+      "en": "Interprets notes outside the table body and raises a question"
+     },
+     "category": "CS01/J"
+    },
+    {
+     "id": "CS01/C036",
+     "type": "AnalysisCode",
+     "notation": "C036",
+     "label": {
+      "ja": "複数のカラムにまたがる構造（レイアウト）があるレコードから変化していることに着目しその背景を推察",
+      "en": "Notices that a structure (layout) spanning multiple columns changes from a certain record and infers the background"
+     },
+     "category": "CS01/G"
+    },
+    {
+     "id": "CS01/C037",
+     "type": "AnalysisCode",
+     "notation": "C037",
+     "label": {
+      "ja": "特定のカラムのフィールド値の大きさに対して現状の常識的価値解釈から言及",
+      "en": "Mentions the magnitude of field values in a specific column in terms of present-day common-sense value judgments"
+     }
+    },
+    {
+     "id": "CS01/C038",
+     "type": "AnalysisCode",
+     "notation": "C038",
+     "label": {
+      "ja": "複数のカラム名間の定義とその関係がわからない",
+      "en": "Does not understand the definitions of, and relationships between, multiple column names"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C039",
+     "type": "AnalysisCode",
+     "notation": "C039",
+     "label": {
+      "ja": "表中に使用されている記号({})の解釈/誤使用に対する指摘",
+      "en": "Interprets or points out misuse of symbols ({}) used in the table"
+     },
+     "category": "CS01/I"
+    },
+    {
+     "id": "CS01/C040",
+     "type": "AnalysisCode",
+     "notation": "C040",
+     "label": {
+      "ja": "同じトピックの連続したレコードであるにもかかわらずある時期からのカラム名の変化/追加に着目",
+      "en": "Notices that column names change or are added from a certain period despite consecutive records on the same topic"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C041",
+     "type": "AnalysisCode",
+     "notation": "C041",
+     "label": {
+      "ja": "表題の変化に注目",
+      "en": "Focuses on a change in the table title"
+     },
+     "category": "CS01/L"
+    },
+    {
+     "id": "CS01/C042",
+     "type": "AnalysisCode",
+     "notation": "C042",
+     "label": {
+      "ja": "特定のカラム名（表頭）に注目（意味不明教えて）",
+      "en": "Focuses on a specific column name (box head) (meaning unclear; asks for explanation)"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C043",
+     "type": "AnalysisCode",
+     "notation": "C043",
+     "label": {
+      "ja": "複数のカラム名間の構造の理解/推察",
+      "en": "Understands/infers the structure among multiple column names"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C044",
+     "type": "AnalysisCode",
+     "notation": "C044",
+     "label": {
+      "ja": "表側の項目名/順序に対して当時の状況を推察",
+      "en": "Infers the situation at the time from stub item names/order"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C045",
+     "type": "AnalysisCode",
+     "notation": "C045",
+     "label": {
+      "ja": "表側の項目名の順序に着目",
+      "en": "Focuses on the order of stub item names"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C046",
+     "type": "AnalysisCode",
+     "notation": "C046",
+     "label": {
+      "ja": "特定のレコードのフィールド値の大きさに対して現状の常識的価値解釈から言及",
+      "en": "Mentions the magnitude of field values in a specific record in terms of present-day common-sense value judgments"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C047",
+     "type": "AnalysisCode",
+     "notation": "C047",
+     "label": {
+      "ja": "特定のレコードのフィールド値を見てその表側の項目名に疑問/仮説を提示",
+      "en": "Looks at field values of a specific record and raises a question/hypothesis about its stub item name"
+     }
+    },
+    {
+     "id": "CS01/C048",
+     "type": "AnalysisCode",
+     "notation": "C048",
+     "label": {
+      "ja": "特定のレコードのフィールド値に注目（理由教えて）",
+      "en": "Focuses on field values of a specific record (asks for the reason)"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C049",
+     "type": "AnalysisCode",
+     "notation": "C049",
+     "label": {
+      "ja": "特定のレコードの総計を見てあるカラムの特徴に言及",
+      "en": "Looks at the total of a specific record and mentions a feature of a column"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C050",
+     "type": "AnalysisCode",
+     "notation": "C050",
+     "label": {
+      "ja": "表全体のフィールド値に対して当時の状況との関連付けへの疑問を提示",
+      "en": "Questions how field values of the whole table relate to the situation at the time"
+     },
+     "category": "CS01/H"
+    },
+    {
+     "id": "CS01/C051",
+     "type": "AnalysisCode",
+     "notation": "C051",
+     "label": {
+      "ja": "特定のレコードの複数のフィールド値を見比べてあるカラムの特徴に言及",
+      "en": "Compares multiple field values of a specific record and mentions a feature of a column"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C052",
+     "type": "AnalysisCode",
+     "notation": "C052",
+     "label": {
+      "ja": "表全体のフィールド値の大きさに対して現状の常識的価値解釈から言及",
+      "en": "Mentions the magnitude of field values of the whole table in terms of present-day common-sense value judgments"
+     },
+     "category": "CS01/H"
+    },
+    {
+     "id": "CS01/C053",
+     "type": "AnalysisCode",
+     "notation": "C053",
+     "label": {
+      "ja": "特定のレコードのフィールド値の大きさに常識的見地から言及",
+      "en": "Mentions the magnitude of field values in a specific record from a common-sense standpoint"
+     }
+    },
+    {
+     "id": "CS01/C054",
+     "type": "AnalysisCode",
+     "notation": "C054",
+     "label": {
+      "ja": "特定のレコードのフィールド値の大きさに対して推察される状況に言及",
+      "en": "Mentions a situation inferred from the magnitude of field values in a specific record"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C055",
+     "type": "AnalysisCode",
+     "notation": "C055",
+     "label": {
+      "ja": "特定のレコードのフィールド値を比較してカラムの特徴を描写/推察",
+      "en": "Compares field values of a specific record and describes/infers a feature of a column"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C056",
+     "type": "AnalysisCode",
+     "notation": "C056",
+     "label": {
+      "ja": "たまたま見つけたであろう複数のフィールド値の特徴（値がない）からカラムの特徴を描写",
+      "en": "Describes a feature of a column from features (missing values) of multiple field values found by chance"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C057",
+     "type": "AnalysisCode",
+     "notation": "C057",
+     "label": {
+      "ja": "特定のレコードのフィールド値の傾向を見て表側の項目名に注目（字が読めるけど意味不明教えて）",
+      "en": "Looks at the trend of field values in a specific record and focuses on its stub item name (can read it but the meaning is unclear; asks for explanation)"
+     }
+    },
+    {
+     "id": "CS01/C058",
+     "type": "AnalysisCode",
+     "notation": "C058",
+     "label": {
+      "ja": "特定のカラムのフィールド値の大きさに常識的見地から言及（統計表作成者の態度に言及）",
+      "en": "Mentions the magnitude of field values in a specific column from a common-sense standpoint (comments on the attitude of the table compiler)"
+     }
+    },
+    {
+     "id": "CS01/C059",
+     "type": "AnalysisCode",
+     "notation": "C059",
+     "label": {
+      "ja": "表体の特定範囲（値がないところ）に注目し、途中からデータが始まっていることの状況を解釈し、その推察に基づいて値の大きさに言及",
+      "en": "Focuses on a specific area of the table body (where values are missing), interprets why the data start midway, and mentions value magnitudes based on that inference"
+     },
+     "category": "CS01/G"
+    },
+    {
+     "id": "CS01/C060",
+     "type": "AnalysisCode",
+     "notation": "C060",
+     "label": {
+      "ja": "特定のカラムのフィールド値に対してカラム名の意味に基づいて疑問を提示",
+      "en": "Raises a question about field values in a specific column based on the meaning of the column name"
+     }
+    },
+    {
+     "id": "CS01/C061",
+     "type": "AnalysisCode",
+     "notation": "C061",
+     "label": {
+      "ja": "特定のカラム名（表頭）に注目（そのデータの必要性に疑義？）",
+      "en": "Focuses on a specific column name (box head) (questions the need for the data?)"
+     }
+    },
+    {
+     "id": "CS01/C062",
+     "type": "AnalysisCode",
+     "notation": "C062",
+     "label": {
+      "ja": "表中にはない視覚的表現（罫線の有無）に対する要望",
+      "en": "Requests a visual expression not present in the table (presence/absence of ruled lines)"
+     },
+     "category": "CS01/K"
+    },
+    {
+     "id": "CS01/C063",
+     "type": "AnalysisCode",
+     "notation": "C063",
+     "label": {
+      "ja": "表中に使用されている記号の使われ方の一貫性の欠如に疑義",
+      "en": "Questions the inconsistent use of symbols in the table"
+     },
+     "category": "CS01/I"
+    },
+    {
+     "id": "CS01/C064",
+     "type": "AnalysisCode",
+     "notation": "C064",
+     "label": {
+      "ja": "特定のレコードの複数のカラム間の値の大きさを見比べて疑義を提示（値の信憑性に）",
+      "en": "Compares the magnitude of values across multiple columns of a specific record and questions their credibility"
+     }
+    },
+    {
+     "id": "CS01/C065",
+     "type": "AnalysisCode",
+     "notation": "C065",
+     "label": {
+      "ja": "複数のレコードの値を比較して表側の項目名の特徴を推察",
+      "en": "Compares values of multiple records and infers features of stub item names"
+     },
+     "category": "CS01/F"
+    },
+    {
+     "id": "CS01/C066",
+     "type": "AnalysisCode",
+     "notation": "C066",
+     "label": {
+      "ja": "表全体に対して背景にあるであろう統計表作成者の意図や狙いに疑問",
+      "en": "Questions the intention or aim of the table compiler presumed to lie behind the whole table"
+     },
+     "category": "CS01/H"
+    },
+    {
+     "id": "CS01/C067",
+     "type": "AnalysisCode",
+     "notation": "C067",
+     "label": {
+      "ja": "特定のレコードを見てそのフィールド値の傾向に言及",
+      "en": "Looks at a specific record and mentions the trend of its field values"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C068",
+     "type": "AnalysisCode",
+     "notation": "C068",
+     "label": {
+      "ja": "特定のカラムの2つのフィールド値の比率/差に言及",
+      "en": "Mentions the ratio/difference between two field values in a specific column"
+     },
+     "category": "CS01/A"
+    },
+    {
+     "id": "CS01/C069",
+     "type": "AnalysisCode",
+     "notation": "C069",
+     "label": {
+      "ja": "特定のカラムの複数のフィールド値の特徴（値がない）から当時の状況を描写",
+      "en": "Describes the situation at the time from features (missing values) of multiple field values in a specific column"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C070",
+     "type": "AnalysisCode",
+     "notation": "C070",
+     "label": {
+      "ja": "表外の注釈に同一記号が別の意味で使われている記載がありそこから統計表作成者が同一人物かどうかに疑問",
+      "en": "Notices that notes outside the table use the same symbol with different meanings and questions whether the tables were compiled by the same person"
+     },
+     "category": "CS01/J"
+    },
+    {
+     "id": "CS01/C071",
+     "type": "AnalysisCode",
+     "notation": "C071",
+     "label": {
+      "ja": "特定のカラムのフィールド値の存在（希少）に着目し当時の価値基準から言及",
+      "en": "Focuses on the (rare) presence of field values in a specific column and comments from the value standards of the time"
+     }
+    },
+    {
+     "id": "CS01/C072",
+     "type": "AnalysisCode",
+     "notation": "C072",
+     "label": {
+      "ja": "特定のカラムのフィールドに記載されている値の種類（記号に囲まれていて脚注にその説明があるものの）に疑義",
+      "en": "Questions the kind of values entered in a specific column (enclosed in symbols, though explained in a footnote)"
+     }
+    },
+    {
+     "id": "CS01/C073",
+     "type": "AnalysisCode",
+     "notation": "C073",
+     "label": {
+      "ja": "特定のカラムのフィールドに記載されている値の種類から当時の状況を踏まえて表の構成について推察",
+      "en": "Infers the table composition from the kinds of values in a specific column, taking the situation at the time into account"
+     }
+    },
+    {
+     "id": "CS01/C074",
+     "type": "AnalysisCode",
+     "notation": "C074",
+     "label": {
+      "ja": "特定のカラムのフィールドに記載されている値の種類から示唆される表の構成について発行時の状況を推察",
+      "en": "Infers the situation at the time of publication regarding the table composition suggested by the kinds of values in a specific column"
+     }
+    },
+    {
+     "id": "CS01/C075",
+     "type": "AnalysisCode",
+     "notation": "C075",
+     "label": {
+      "ja": "同じトピックの表中にはない属性とその値の傾向について推察",
+      "en": "Infers the trend of an attribute and its values not in tables on the same topic"
+     },
+     "category": "CS01/K"
+    },
+    {
+     "id": "CS01/C076",
+     "type": "AnalysisCode",
+     "notation": "C076",
+     "label": {
+      "ja": "特定のカラム名に着目しそのフィールド値に該当する具体的名称を思い出して列挙",
+      "en": "Focuses on a specific column name and recalls and lists concrete names corresponding to its field values"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C077",
+     "type": "AnalysisCode",
+     "notation": "C077",
+     "label": {
+      "ja": "複数のカラム間でそれぞれ複数のフィールド値の間の整合性に注目/疑問を提示（総数合わない）",
+      "en": "Focuses on / questions the consistency among multiple field values across multiple columns (totals do not add up)"
+     }
+    },
+    {
+     "id": "CS01/C078",
+     "type": "AnalysisCode",
+     "notation": "C078",
+     "label": {
+      "ja": "表中に使用されている記号({})の解釈/誤使用の理由や背景の推察",
+      "en": "Infers the reason for or background of the interpretation/misuse of symbols ({}) used in the table"
+     },
+     "category": "CS01/I"
+    },
+    {
+     "id": "CS01/C079",
+     "type": "AnalysisCode",
+     "notation": "C079",
+     "label": {
+      "ja": "特定のカラムのフィールド値の変化に社会的常識から着目",
+      "en": "Focuses on changes in field values of a specific column from a social common-sense standpoint"
+     },
+     "category": "CS01/D"
+    },
+    {
+     "id": "CS01/C080",
+     "type": "AnalysisCode",
+     "notation": "C080",
+     "label": {
+      "ja": "複数のカラム間でそれぞれ複数のフィールド値同士を比較し常識的見地から疑問を提示",
+      "en": "Compares multiple field values each across multiple columns and raises a question from a common-sense standpoint"
+     }
+    },
+    {
+     "id": "CS01/C081",
+     "type": "AnalysisCode",
+     "notation": "C081",
+     "label": {
+      "ja": "複数のカラム間でそれぞれ複数のフィールド値同士を比較し類似のトピックの他の表を参照し疑問を提示",
+      "en": "Compares multiple field values each across multiple columns and raises a question with reference to other tables on a similar topic"
+     }
+    },
+    {
+     "id": "CS01/C082",
+     "type": "AnalysisCode",
+     "notation": "C082",
+     "label": {
+      "ja": "特定のカラム名に着目し解釈して該当すると推察した具体的名称を列挙",
+      "en": "Focuses on and interprets a specific column name and lists concrete names inferred to correspond to it"
+     }
+    }
+   ]
+  }
+ ]
+}

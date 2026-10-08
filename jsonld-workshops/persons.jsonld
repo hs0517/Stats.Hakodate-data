@@ -1,0 +1,95 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "P01",
+   "type": "Person",
+   "display_name": "mk",
+   "gender": "female"
+  },
+  {
+   "id": "P02",
+   "type": "Person",
+   "display_name": "hs",
+   "gender": "male"
+  },
+  {
+   "id": "P03",
+   "type": "Person",
+   "display_name": "kn",
+   "gender": "female"
+  },
+  {
+   "id": "P04",
+   "type": "Person",
+   "display_name": "jw",
+   "gender": "male"
+  },
+  {
+   "id": "P05",
+   "type": "Person",
+   "display_name": "yt",
+   "gender": "female"
+  },
+  {
+   "id": "P06",
+   "type": "Person",
+   "display_name": "r1",
+   "gender": "male"
+  },
+  {
+   "id": "P07",
+   "type": "Person",
+   "display_name": "r2",
+   "gender": "male"
+  },
+  {
+   "id": "P08",
+   "type": "Person",
+   "display_name": "tu",
+   "gender": "male"
+  },
+  {
+   "id": "P09",
+   "type": "Person",
+   "display_name": "ts",
+   "gender": "male"
+  },
+  {
+   "id": "P10",
+   "type": "Person",
+   "display_name": "sh",
+   "gender": "male"
+  },
+  {
+   "id": "P11",
+   "type": "Person",
+   "display_name": "jk",
+   "gender": "male"
+  },
+  {
+   "id": "P12",
+   "type": "Person",
+   "display_name": "tt",
+   "gender": "male"
+  },
+  {
+   "id": "P13",
+   "type": "Person",
+   "display_name": "sk",
+   "gender": "male"
+  },
+  {
+   "id": "P14",
+   "type": "Person",
+   "display_name": "kt",
+   "gender": "male"
+  },
+  {
+   "id": "P15",
+   "type": "Person",
+   "display_name": "tm",
+   "gender": "female"
+  }
+ ]
+}

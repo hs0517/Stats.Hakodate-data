@@ -1,0 +1,1200 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "SUM001",
+   "type": "Workshop",
+   "sum_type": 2,
+   "date": "2024-08-13",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM001-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H13M44S",
+     "targets": [
+      "TBL0208"
+     ],
+     "presented": [
+      "PAG0650"
+     ],
+     "instruments": [
+      {
+       "instrument": "ipad-8th-gen",
+       "role": "presentation"
+      },
+      {
+       "instrument": "apple-pencil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P01",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    },
+    {
+     "id": "SUM001-2",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H13M44S",
+     "targets": [
+      "TBL0208"
+     ],
+     "presented": [
+      "PAG0650"
+     ],
+     "instruments": [
+      {
+       "instrument": "ipad-8th-gen",
+       "role": "presentation"
+      },
+      {
+       "instrument": "apple-pencil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P02",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    },
+    {
+     "id": "SUM001-3",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H13M44S",
+     "targets": [
+      "TBL0208"
+     ],
+     "presented": [
+      "PAG0650"
+     ],
+     "instruments": [
+      {
+       "instrument": "ipad-8th-gen",
+       "role": "presentation"
+      },
+      {
+       "instrument": "apple-pencil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM002",
+   "type": "Workshop",
+   "sum_type": 2,
+   "date": "2024-08-13",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM002-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H16M50S",
+     "targets": [
+      "TBL0237"
+     ],
+     "presented": [
+      "PAG0712"
+     ],
+     "instruments": [
+      {
+       "instrument": "ipad-8th-gen",
+       "role": "presentation"
+      },
+      {
+       "instrument": "apple-pencil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P01",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    },
+    {
+     "id": "SUM002-2",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H16M50S",
+     "targets": [
+      "TBL0187"
+     ],
+     "presented": [
+      "PAG0513"
+     ],
+     "instruments": [
+      {
+       "instrument": "ipad-8th-gen",
+       "role": "presentation"
+      },
+      {
+       "instrument": "apple-pencil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P02",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    },
+    {
+     "id": "SUM002-3",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H16M50S",
+     "targets": [
+      "TBL0004"
+     ],
+     "presented": [
+      "PAG0082"
+     ],
+     "instruments": [
+      {
+       "instrument": "ipad-8th-gen",
+       "role": "presentation"
+      },
+      {
+       "instrument": "apple-pencil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM003",
+   "type": "Workshop",
+   "sum_type": 3,
+   "date": "2024-08-13",
+   "place": {
+    "ja": "はこだて未来大学 R725",
+    "en": "Future University Hakodate R725"
+   },
+   "sessions": [
+    {
+     "id": "SUM003-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H25M50S",
+     "targets": [
+      "TBL0012"
+     ],
+     "presented": [
+      "PAG0096"
+     ],
+     "instruments": [
+      {
+       "instrument": "projector",
+       "role": "presentation"
+      },
+      {
+       "instrument": "marker-pen-water",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P01",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P02",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM004",
+   "type": "Workshop",
+   "sum_type": 5,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM004-1",
+     "type": "Session",
+     "annotation_mode": "spoken",
+     "duration": "PT0H3M32S",
+     "targets": [
+      "TBL0156"
+     ],
+     "instruments": [
+      {
+       "instrument": "ddrpp-magnets-02",
+       "role": "presentation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM005",
+   "type": "Workshop",
+   "sum_type": 5,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM005-1",
+     "type": "Session",
+     "annotation_mode": "spoken",
+     "duration": "PT0H2M30S",
+     "targets": [
+      "TBL0156"
+     ],
+     "instruments": [
+      {
+       "instrument": "ddrpp-magnets-02",
+       "role": "presentation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM006",
+   "type": "Workshop",
+   "sum_type": 5,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM006-1",
+     "type": "Session",
+     "annotation_mode": "spoken",
+     "duration": "PT0H2M29S",
+     "targets": [
+      "TBL0156"
+     ],
+     "instruments": [
+      {
+       "instrument": "ddrpp-magnets-02",
+       "role": "presentation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM007",
+   "type": "Workshop",
+   "sum_type": 5,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM007-1",
+     "type": "Session",
+     "annotation_mode": "spoken",
+     "duration": "PT0H2M18S",
+     "targets": [
+      "TBL0156"
+     ],
+     "instruments": [
+      {
+       "instrument": "ddrpp-magnets-02",
+       "role": "presentation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P03",
+       "role": "interlocutor",
+       "joined_midway": true,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM008",
+   "type": "Workshop",
+   "sum_type": 5,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM008-1",
+     "type": "Session",
+     "annotation_mode": "spoken",
+     "duration": "PT0H2M6S",
+     "targets": [
+      "TBL0156"
+     ],
+     "instruments": [
+      {
+       "instrument": "ddrpp-magnets-02",
+       "role": "presentation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P03",
+       "role": "interlocutor",
+       "joined_midway": true,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM009",
+   "type": "Workshop",
+   "sum_type": 4,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM009-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H17M25S",
+     "targets": [
+      "TBL0373",
+      "TBL0374"
+     ],
+     "presented": [
+      "PAG1120",
+      "PAG1121"
+     ],
+     "instruments": [
+      {
+       "instrument": "panel-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "printed-table-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P02",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM010",
+   "type": "Workshop",
+   "sum_type": 1,
+   "date": "2024-08-15",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM010-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H15M21S",
+     "targets": [
+      "TBL0144",
+      "TBL0145",
+      "TBL0146",
+      "TBL0147",
+      "TBL0148",
+      "TBL0149",
+      "TBL0150",
+      "TBL0151"
+     ],
+     "presented": [
+      "PAG0384",
+      "PAG0385",
+      "PAG0386",
+      "PAG0387",
+      "PAG0388",
+      "PAG0389",
+      "PAG0390",
+      "PAG0391",
+      "PAG0392",
+      "PAG0393",
+      "PAG0394",
+      "PAG0395",
+      "PAG0396",
+      "PAG0397",
+      "PAG0398",
+      "PAG0399",
+      "PAG0400",
+      "PAG0401",
+      "PAG0402",
+      "PAG0403",
+      "PAG0404",
+      "PAG0405",
+      "PAG0406",
+      "PAG0407",
+      "PAG0408",
+      "PAG0409",
+      "PAG0410",
+      "PAG0411",
+      "PAG0412",
+      "PAG0413"
+     ],
+     "instruments": [
+      {
+       "instrument": "book",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "whiteboard",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-water",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P04",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM011",
+   "type": "Workshop",
+   "sum_type": 4,
+   "date": "2024-08-21",
+   "place": {
+    "ja": "はこだて未来大学 R723",
+    "en": "Future University Hakodate R723"
+   },
+   "sessions": [
+    {
+     "id": "SUM011-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H15M20S",
+     "targets": [
+      "TBL0015"
+     ],
+     "presented": [
+      "PAG0104",
+      "PAG0105"
+     ],
+     "instruments": [
+      {
+       "instrument": "panel-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "printed-table-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P05",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "researcher",
+       "affiliation": {
+        "ja": "ZEN大学",
+        "en": "ZEN University"
+       }
+      },
+      {
+       "person": "P06",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "researcher"
+      },
+      {
+       "person": "P07",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "researcher"
+      }
+     ]
+    },
+    {
+     "id": "SUM011-2",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H15M20S",
+     "targets": [
+      "TBL0018"
+     ],
+     "presented": [
+      "PAG0110",
+      "PAG0111"
+     ],
+     "instruments": [
+      {
+       "instrument": "panel-a0",
+       "role": "presentation"
+      },
+      {
+       "instrument": "printed-table-a0",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P08",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "国立情報学研究所",
+        "en": "National Institute of Informatics"
+       }
+      },
+      {
+       "person": "P09",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "researcher",
+       "affiliation": {
+        "ja": "名古屋大学",
+        "en": "Nagoya University"
+       }
+      },
+      {
+       "person": "P10",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "researcher"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM012",
+   "type": "Workshop",
+   "sum_type": 3,
+   "date": "2024-10-10",
+   "place": {
+    "ja": "はこだて未来大学 R724",
+    "en": "Future University Hakodate R724"
+   },
+   "sessions": [
+    {
+     "id": "SUM012-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H20M40S",
+     "targets": [
+      "TBL0211"
+     ],
+     "presented": [
+      "PAG0655"
+     ],
+     "instruments": [
+      {
+       "instrument": "projector",
+       "role": "presentation"
+      },
+      {
+       "instrument": "marker-pen-water",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P11",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "researcher",
+       "affiliation": {
+        "ja": "山形大学",
+        "en": "Yamagata University"
+       }
+      },
+      {
+       "person": "P12",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P13",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "student",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUM013",
+   "type": "Workshop",
+   "sum_type": 4,
+   "date": "2025-02-21",
+   "place": {
+    "ja": "はこだて未来大学 R731",
+    "en": "Future University Hakodate R731"
+   },
+   "sessions": [
+    {
+     "id": "SUM013-1",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H14M17S",
+     "targets": [
+      "TBL0415-01",
+      "TBL0415-02",
+      "TBL0415-03"
+     ],
+     "presented": [
+      "PAG1213"
+     ],
+     "instruments": [
+      {
+       "instrument": "panel-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "printed-table-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P14",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P15",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    },
+    {
+     "id": "SUM013-2",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H17M42S",
+     "targets": [
+      "TBL0414"
+     ],
+     "presented": [
+      "PAG1212"
+     ],
+     "instruments": [
+      {
+       "instrument": "panel-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "printed-table-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P14",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P15",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    },
+    {
+     "id": "SUM013-3",
+     "type": "Session",
+     "annotation_mode": "written",
+     "duration": "PT0H17M56S",
+     "targets": [
+      "TBL0413"
+     ],
+     "presented": [
+      "PAG1211"
+     ],
+     "instruments": [
+      {
+       "instrument": "panel-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "printed-table-a1",
+       "role": "presentation"
+      },
+      {
+       "instrument": "sticky-note",
+       "role": "annotation"
+      },
+      {
+       "instrument": "marker-pen-oil",
+       "role": "annotation"
+      }
+     ],
+     "participants": [
+      {
+       "person": "P03",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P14",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      },
+      {
+       "person": "P15",
+       "role": "annotator",
+       "joined_midway": false,
+       "status": "faculty",
+       "affiliation": {
+        "ja": "はこだて未来大学",
+        "en": "Future University Hakodate"
+       },
+       "residence": {
+        "ja": "函館市",
+        "en": "Hakodate City"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

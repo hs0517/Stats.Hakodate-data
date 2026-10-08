@@ -1,0 +1,7018 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "ANT0001",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "乗る人の方が常に多い",
+    "en": "More people are always getting on than off."
+   },
+   "annotation_timing": "in_session",
+   "coordinates": [
+    0.2709,
+    0.0563
+   ],
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0001.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0001.png",
+   "audio_file_path": "/statistical-data/audio/0001.mp3",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C001",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0002",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "［青のハイライト］前年より大きく減少？",
+    "en": "[Blue highlight] Big drop from the previous year?"
+   },
+   "annotation_timing": "in_session",
+   "coordinates": [
+    0.479,
+    0.8829
+   ],
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0002.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0002.png",
+   "audio_file_path": "/statistical-data/audio/0002.mp3",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0003",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "［赤のハイライト］前年より大きく増加？",
+    "en": "[Red highlight] Big increase from the previous year?"
+   },
+   "annotation_timing": "in_session",
+   "coordinates": [
+    0.4925,
+    0.934
+   ],
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0003.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0003.png",
+   "audio_file_path": "/statistical-data/audio/0002.mp3",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0004",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "ここまで上りと下りの合計？",
+    "en": "Is this the total of inbound and outbound up to here?"
+   },
+   "annotation_timing": "in_session",
+   "coordinates": [
+    0.5369,
+    0.4939
+   ],
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0004.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0004.png",
+   "audio_file_path": "/statistical-data/audio/0003.mp3",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C008",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0005",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "到着の“下り”が大きい",
+    "en": "“Outbound” arrivals are much higher."
+   },
+   "annotation_timing": "in_session",
+   "coordinates": [
+    0.7532,
+    0.7629
+   ],
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0005.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0005.png",
+   "audio_file_path": "/statistical-data/audio/0004.mp3",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C005",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0007",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "基本は乗降客年々増える",
+    "en": "Passenger traffic basically increases year by year."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0007.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0007.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0008",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "急増",
+    "en": "Sharp increase."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0008.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0008.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0009",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "減る",
+    "en": "Decrease."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0009.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0009.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0010",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "減る",
+    "en": "Decrease."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0010.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0010.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0011",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "急増",
+    "en": "Sharp increase."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0011.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0011.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0012",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "急増",
+    "en": "Sharp increase."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0012.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0012.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0013",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "函館以北",
+    "en": "North of Hakodate."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0013.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0013.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C019",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0014",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "以南？",
+    "en": "South of it?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0014.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0014.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C019",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0015",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "上りと下り同じ",
+    "en": "Inbound and outbound are the same."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0015.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0015.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C008",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0016",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "発送は上りに多い",
+    "en": "Shipments are heavier in the inbound direction."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0016.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0016.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C002",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0017",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "下りからの到着貨物多め",
+    "en": "More arriving freight from the outbound side."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0017.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0017.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C002",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0018",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "なぜ記録ない？",
+    "en": "Why is there no record?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0018.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0018.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C016",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0019",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "ブワっと増えてる",
+    "en": "It suddenly shoots up."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0019.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0019.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0020",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "ここだけ減ってる",
+    "en": "Only this part is decreasing."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0020.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0020.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0021",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "すごい増加だけど人口と比例？",
+    "en": "Huge increase, but is it proportional to population?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0021.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0021.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C021",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0022",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "上りと下りに分かれた。つまり、函館が終点じゃ無くなったってこと？線路伸びた。？",
+    "en": "It got split into inbound and outbound. Does that mean Hakodate stopped being the terminal? Did the railway get extended?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0022.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0022.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C008",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0023",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM001-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "貨物どうなった？資料もとがかわったからかと思ったけどそうでもない",
+    "en": "What happened to the freight? I thought maybe the source material changed, but maybe not."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0650"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0023.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0023.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C016",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0024",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "この数年でなにが？",
+    "en": "What happened in these few years?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0024.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0024.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C016",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0025",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "［青のハイライト］",
+    "en": "[Blue highlight]"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0025.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0025.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C023",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0026",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "［赤のハイライト］",
+    "en": "[Red highlight]"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0026.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0026.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C023",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0027",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "減ったと思ったら増えた",
+    "en": "Just when it looked like it dropped, it went back up."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0027.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0027.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0028",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "その他って例えばなにがある…？",
+    "en": "What kinds of things count as “other,” for example...?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0028.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0028.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C014",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0029",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "きまりとかができた？or市町村合併とか？",
+    "en": "Did some rule change? Or maybe a municipal merger?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0029.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0029.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C024",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0030",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "増",
+    "en": "Increase."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0030.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0030.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0031",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "［赤のハイライト］",
+    "en": "[Red highlight]"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0031.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0031.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0032",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "減",
+    "en": "Decrease."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0032.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0032.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0033",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "［青のハイライト］",
+    "en": "[Blue highlight]"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0033.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0033.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0034",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "増減のタイミングが同じなのは関連があるのか？",
+    "en": "The timing of the rises and falls is the same. Is there a connection?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0034.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0034.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C025",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0035",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "畑の方が土地面積広い（有租）",
+    "en": "Fields take up more land area than paddies (taxable land)."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0712"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0035.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0035.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C009",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0036",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "こんなに少人数でできる？",
+    "en": "Could this really be done with so few people?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0036.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0036.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0037",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "缶？",
+    "en": "Cans?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0037.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0037.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C013",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0038",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "値上げした？内容量増えた？",
+    "en": "Did the price go up? Or did the quantity increase?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0038.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0038.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0039",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "めっちゃ少ない",
+    "en": "Really small amount."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0039.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0039.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C006",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0040",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "独特な名前",
+    "en": "Unusual name."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0040.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0040.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C014",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0041",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "何があったのか参照先が変わったため？",
+    "en": "Did something happen"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0041.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0041.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C016",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0042",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-2",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "ここ読まないと誤解する",
+    "en": "Youd misread this if you don't read here."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0513"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0042.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0042.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C015",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0043",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "府県移入って何？",
+    "en": "What does “brought in from other prefectures” mean?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0043.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0043.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C026",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0044",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "読めない",
+    "en": "Can't read it."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0044.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0044.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C027",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0045",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "コレナニ",
+    "en": "What is this?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0045.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0045.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0046",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "単位間の関係が皆目わからない",
+    "en": "I have absolutely no idea how these units relate to each other."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0046.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0046.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C029",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0047",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "こんな単位ある。お菓子一箱とか、カワイイ",
+    "en": "They had units like this? Like “one box of sweets” — kind of cute."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0047.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0047.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C030",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0048",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "見当もつかない",
+    "en": "I can't even begin to guess."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0048.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0048.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C027",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0049",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "興味あるナマエ",
+    "en": "Interesting name."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0049.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0049.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0050",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "単価でみたい。というか、どれくらいの物理的規模感のものが、いくらなのか、みてみたい。貴重感というか高級感というか。",
+    "en": "I want to see it by unit price. Or rather, I want to know what kind of physical quantity this actually was and how much it cost. Like how rare or luxurious it was."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0050.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0050.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C018",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0051",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "分量すごい増えているのに、金額はあまり増えてない。毎年、単価ダダ下がり。",
+    "en": "The quantity goes way up, but the amount of money hardly increases. The unit price is dropping like crazy every year."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0051.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0051.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C009",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0052",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "逆に、単価どんどん上がってる。米、すごい。",
+    "en": "On the other hand, the unit price keeps going up. Rice is wild."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0052.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0052.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C009",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0053",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "すごい量多い。同じ単位でも桁違いに",
+    "en": "That's a huge amount. Even with the same unit, it's on a completely different scale."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0053.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0053.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C031",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0054",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM002-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "すごい増え方",
+    "en": "What a huge jump."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0082"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0054.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0054.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C032",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0055",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "いつ？めっちゃ前？",
+    "en": "When? A really long time ago?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0055.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0055.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0056",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "町どうしの地理関係は？",
+    "en": "What's the geographic relationship between these towns?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0056.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0056.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C011",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0057",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "町の規模感？ギュッとなってたら狭くても多い？",
+    "en": "How big were the towns? If they were packed together, could they be populous even if small?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0057.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0057.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C014",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0058",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "同じ年にみんな「…」",
+    "en": "Everyone has “...” in the same year."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0058.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0058.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C017",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0059",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "今の函館のどのあたりの地域なのか",
+    "en": "Which area of present-day Hakodate would this be?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0059.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0059.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C011",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0060",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "+4",
+    "en": "+4"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0060.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0060.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0061",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "-2",
+    "en": "-2"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0061.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0061.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0062",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "産まれた？",
+    "en": "Were they born?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0062.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0062.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C003",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0063",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "全人口比と全戸数比はほぼ同じ？",
+    "en": "Is the share of total population almost the same as the share of total households?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0063.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0063.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C009",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0064",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "戸数の増減？引っ越し？家事？壊れた？",
+    "en": "Change in number of households? Moving? Fires? Houses destroyed?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0064.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0064.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C004",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0065",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "全員知り合い？距離感どのくらい？",
+    "en": "Did everyone know each other? How close-knit was it?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0065.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0065.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C012",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0066",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "読めない…",
+    "en": "Can't read it..."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0066.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0066.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C042",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0067",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "人口増えてるが全人口比減ってる→全人口が増加した",
+    "en": "Population is increasing but its share of the total population is decreasing → the total population increased."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0067.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0067.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C002",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0068",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "男女比（男の方が多い）",
+    "en": "Gender ratio (more men than women)."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0068.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0068.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0069",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "今だったら怒られる",
+    "en": "Youd get in trouble for this now."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0069.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0069.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C014",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0070",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "？？",
+    "en": "??"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0070.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0070.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C042",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0071",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "今もある弁天町と同じ…？",
+    "en": "Is this the same as present-day Benten-cho...?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0071.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0071.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C014",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0072",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "大体4人家族",
+    "en": "Roughly a family of four."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0072.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0072.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0073",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM003-1",
+   "annotated_by": "P01",
+   "value": {
+    "ja": "年齢構成とか？？",
+    "en": "Age structure or something??"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0096"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0073.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0073.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C018",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0074",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "度数とは",
+    "en": "What does “frequency” mean here?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0074.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0074.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C019",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0075",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "この頃の12,789戸は全体あったうちのどのくらいの割合？何戸あったのだろう",
+    "en": "Around this time, these 12,789 households—what percentage of the whole was that? How many households were there in total?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0075.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0075.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0076",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "ショウワ9年の3月ここだけがとりあげられるのはすごい大火だ…",
+    "en": "The fact that only March of Showa 9 gets singled out must mean it was a huge fire..."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0076.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0076.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C034",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0077",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "1～5月のものは3月に焼けてしまったの？",
+    "en": "Did the records for January to May get burned in March?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0077.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0077.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C035",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0078",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "全焼と半焼の概念分けだした基準とか",
+    "en": "What was the criterion for separating total burn and partial burn?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0078.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0078.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C036",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0079",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "ココの損害額はインパクトがあるこれがいわゆるハコダテ大火？",
+    "en": "The damage amount here really stands out. Is this the famous Great Hakodate Fire?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0079.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0079.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C012",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0080",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "損害額8700円はよく考えるとちょっとだけ今だと",
+    "en": "When you think about it, 8,700 yen in damages would only be a little today—"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0080.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0080.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C037",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0081",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "多めの差は気になる",
+    "en": "The fairly big difference stands out."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0081.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0081.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C035",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0082",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "死者数のカウントがないのは戸せきとかしっかりわかったなかったから？",
+    "en": "Is there no death count because household registers etc. weren't firmly established yet?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0082.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0082.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C018",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0083",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "当時の円の価値からすると相当なダメージ",
+    "en": "Given the value of the yen back then, that must have been massive damage."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0083.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0083.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C012",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0084",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "戦後はどのくらい建物あったのだろう",
+    "en": "How many buildings were there after the war?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0084.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0084.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0085",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "件数とり災棟とり災件数の関係がわからない",
+    "en": "I don't get the relationship between number of cases, affected buildings, and affected households."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0085.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0085.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C038",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0086",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "火事騒は非火災と言える？",
+    "en": "Can a “fire scare” be considered a non-fire?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0086.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0086.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C038",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0087",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "こんなに単位変わってるのに同じ数字を出されても100",
+    "en": "Even though the units change this much, they still give the same number—100."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0087.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0087.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C015",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0088",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "この中かっこは一体…？どういうイミ？",
+    "en": "What on earth do these parentheses mean...?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0088.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0088.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C039",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0089",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "そもそも毎年何件も全焼するくらいの火事あるのヤバい",
+    "en": "More fundamentally, it's wild that there were enough fires every year for multiple total burnouts."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0089.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0089.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0090",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "り災棟とり災世帯は重なりにはあるの？",
+    "en": "Do the numbers for affected buildings and affected households overlap?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0090.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0090.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C038",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0091",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "消失面積に対する損害の額がちがう！",
+    "en": "The amount of damage differs relative to the burned area!"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0091.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0091.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C025",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0092",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "死者数意外と少なくない？",
+    "en": "Aren't the death counts surprisingly low?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0092.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0092.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0093",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "↑住民の避難意識高いから？",
+    "en": "↑ Because residents were highly aware of evacuation?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0093.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0093.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0094",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P02",
+   "value": {
+    "ja": "数年単位で単位変わっている？なぜ？",
+    "en": "Are the units changing every few years? Why?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0094.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0094.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C035",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0095",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "表頭に「非住宅」があるのは大火のせい？それまではあんまなかったんだろうなあ",
+    "en": "Is “non-residential” in the column header because of the great fire? Before that there probably wasn't much of it."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0095.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0095.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C021",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0096",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "大正5と大正10と棟数も坪数の差に比べて損害額（大正10）はすごい",
+    "en": "Compared with Taisho 5 and Taisho 10, the damage amount in Taisho 10 is huge relative to the difference in building and tsubo counts."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0096.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0096.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0097",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "「火事騒」っていわゆるボヤ？なんかかわいい",
+    "en": "“Fire scare” — does that mean what wed call a small fire? Kind of cute somehow."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0097.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0097.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C019",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0098",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "昭和16年までは損害額で昭和23からは損害見積額",
+    "en": "Up to Showa 16 it says “amount of damage,” but from Showa 23 it becomes “estimated damage amount.”"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0098.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0098.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C040",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0099",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM010-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "政党名とかの記述があるの昭和から（22とか）だ.イロイロあったし…",
+    "en": "Party names start showing up from the Showa period (like 22). A lot had happened..."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0399"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0099.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0099.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C040",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0100",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM010-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "投票率とかどんなもんだったのだろう…",
+    "en": "I wonder what voter turnout was like..."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0397"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0100.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0100.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0101",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM010-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "キケンシャ数少ない,そもそも権利もってる人多くないのか",
+    "en": "The number of eligible voters is small. Or maybe not many people had the right to vote in the first place?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0403"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0101.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0101.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0102",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM010-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "「イト」さんは女性？それまで全然いなかった",
+    "en": "Was “Ito” a woman? There had been almost none before that."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0409"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0102.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0102.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C012",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0103",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM010-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "平出喜三郎,明治35～昭和5まで.けっこうつよい",
+    "en": "Hiraide Kisaburo, from Meiji 35 to Showa 5 — pretty dominant."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0408"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0103.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0103.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0104",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM010-1",
+   "annotated_by": "P04",
+   "value": {
+    "ja": "大正9まで区せんきょ,大正11から市せんきょ",
+    "en": "Up to Taisho 9 it says ward election; from Taisho 11 it says city election."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0396",
+    "PAG0397"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0104.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0104.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C041",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0105",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "イミフメイ",
+    "en": "Makes no sense."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0105.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0105.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C042",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0106",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "イミフメイ",
+    "en": "Makes no sense."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0106.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0106.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0107",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "すべての大区が5つの小区に分けられている",
+    "en": "Every large district is divided into five small districts."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0107.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0107.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C043",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0108",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "荒物女とは？（数が多い）",
+    "en": "What is an “aramono woman”? (There are a lot of them.)"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0108.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0108.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0109",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "「女」の？？しかないものは全て男．えらい職業は全部男",
+    "en": "Anything that only has “woman” marked for it means all the others are men. All the prestigious jobs are male."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0109.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0109.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C044",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0110",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "干菓子と水菓子の区別",
+    "en": "What's the difference between dry sweets and fresh sweets?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0110.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0110.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C044",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0111",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "職業を女性だけ「女」と記されるのはなぜ？",
+    "en": "Why are only women marked as “woman” by occupation?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0111.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0111.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C044",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0112",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "士→（農）→工→商の順？",
+    "en": "In the order of warrior → (farmer) → artisan → merchant?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0112.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0112.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C045",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0113",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "「肉」の意味は？",
+    "en": "What does “meat” mean here?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0113.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0113.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0114",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "すごく数が少ない",
+    "en": "The number is really small."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0114.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0114.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C032",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0115",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "張替は大区に1人ずつ（たぶんもうからない）",
+    "en": "There's one paper-repair person per large district (probably not very profitable)."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0115.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0115.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C032",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0116",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "何順なんだろう",
+    "en": "I wonder what order this is in."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0116.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0116.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C045",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0117",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "濁酒ってなに",
+    "en": "What is cloudy sake?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0117.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0117.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0118",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "行政書だからか当時の公職がトップになっていて公職の人々のプライドみたいなものが感じられる",
+    "en": "Maybe because this is an administrative document, public officials are placed at the top, and you can kind of feel their pride in their office."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0118.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0118.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C044",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0119",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "偉い順？僧侶の順位がおもしろい",
+    "en": "Ranked by status? The placement of monks is interesting."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0119.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0119.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C045",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0120",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "16大区栄えていそう（旅人宿とか）（酒屋とかもち屋とか）",
+    "en": "The 16th large district looks prosperous (inns for travelers, sake shops, mochi shops)."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0120.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0120.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C037",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0121",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "「師」、「職」、「商」．．．などの違い",
+    "en": "What's the difference between “master,” “craft,” “trade,” etc.?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0121.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0121.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0122",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "はこだてが港だからか、やっぱり漁師と大工関係の職業の人が多くておもしろい",
+    "en": "Maybe because Hakodate is a port town, it's interesting how many fishermen and carpentry-related occupations there are."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0122.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0122.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C046",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0123",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "2小区は、「下の職業」が多い",
+    "en": "Small district 2 has a lot of “lower” occupations."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0123.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0123.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0124",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "「西洋船大工」は特殊技能？",
+    "en": "Was a “Western-style ship carpenter” a specialized skill?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0124.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0124.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C047",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0125",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "4小区「官員」を量産している",
+    "en": "Small district 4 is mass-producing “officials”"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0125.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0125.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C021",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0126",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "石工の人数が多いように見えるが、どんな要因があるのか？",
+    "en": "There seem to be a lot of stonemasons — what factors might explain that?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0126.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0126.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C048",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0127",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "「石工」が14大区だけ多い",
+    "en": "“Stonemasons” are numerous only in the 14th large district."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0127.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0127.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C049",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0128",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "荒物ってどんな職業でしょうか？",
+    "en": "What kind of occupation is “aramono”?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0128.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0128.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0129",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "総人口がわからん！",
+    "en": "I can't tell the total population!"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0129.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0129.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C050",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0130",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "14大区だと下駄職多い",
+    "en": "The 14th large district has lots of clog-makers."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0130.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0130.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C051",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0131",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "少ない",
+    "en": "Few."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0131.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0131.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C052",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0132",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "漁業の町だ",
+    "en": "It's a fishing town."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0132.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0132.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C053",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0133",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "にごり酒店が１軒しかない？当時の酒は清酒がメジャー？",
+    "en": "Only one cloudy-sake shop? Was clear sake already the mainstream then?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0133.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0133.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C054",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0134",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "14大区1小区に僧侶が集中4区に巡査が集中",
+    "en": "Monks are concentrated in the 1st small district of the 14th large district; police are concentrated in the 4th district."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0134.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0134.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C055",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0135",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "小学教員カテゴリがあるのに１人しかいない",
+    "en": "There's an elementary school teacher category, but only one person."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0135.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0135.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0136",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "2小区には酒が売られていない（？）",
+    "en": "No sake is sold in small district 2 (?)"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0136.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0136.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C056",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0137",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "謎の職業（合物師、附木師…）",
+    "en": "Mysterious occupations (awamono-shi, tsukegi-shi...)."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0137.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0137.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0138",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P06",
+   "value": {
+    "ja": "提灯張るのにこんなに要らないでしょ",
+    "en": "Surely you don't need that many people just to make lanterns."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0138.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0138.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C053",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0139",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P05",
+   "value": {
+    "ja": "「荒物」多いけど何を売っている？",
+    "en": "There are lots of “aramono,” but what are they selling?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0139.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0139.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C057",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0140",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P07",
+   "value": {
+    "ja": "こっちは山というか陸地だ",
+    "en": "This side is more mountains"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0110"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0140.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0140.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C055",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0141",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "賃もちってなんだ！",
+    "en": "What is “chinmochi”!?"
+   },
+   "annotation_timing": "post_session",
+   "annotated_on": [
+    "PAG0111"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0141.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0141.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C028",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0142",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "明らかにまちがいなのに直さない",
+    "en": "It's obviously wrong, but they don't fix it."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0142.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0142.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C058",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0143",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "めでたい字「幸」「寿」「豊」が多いなあ",
+    "en": "There are lots of auspicious characters like “fortune,” “longevity,” and “abundance.”"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0143.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0143.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C044",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0144",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "他とちがうにもほどがある",
+    "en": "This is way too different from the others."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0144.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0144.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C006",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0145",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "だいたい1世帯3～4人→核家族少ない？",
+    "en": "Roughly 3–4 people per household → so not many nuclear families?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0145.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0145.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0146",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "明33年で人口増えすぎじゃない？",
+    "en": "Isn't the population way too high in Meiji 33?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0146.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0146.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C049",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0147",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "新しい町なのに人口すごく多い",
+    "en": "It's a new town, and yet the population is huge."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0147.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0147.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C059",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0148",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "なぜか5.0でとういつ",
+    "en": "Somehow it's standardized at 5.0."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0148.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0148.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C060",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0149",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "村は？",
+    "en": "What about the villages?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0149.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0149.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C018",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0150",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "この年人口すごくふえている",
+    "en": "The population increases a lot in this year."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0150.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0150.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C049",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0151",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "意外と一戸平均あたりの人が少ない",
+    "en": "Surprisingly few people per household on average."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0151.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0151.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0152",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "平均33ってありえるのか？",
+    "en": "Is an average of 33 even possible?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0152.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0152.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0153",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "すごく人口へっている",
+    "en": "The population drops drastically."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0153.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0153.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C032",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0154",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "極端に1戸あたり人数が少ない2年つづけてるもたぶん正しい",
+    "en": "The extremely low people-per-household figure continues for two years, but it's probably correct."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0154.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0154.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0155",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "行政が戸数や人口の数を把握する意味は分かるけど一戸平均を知る…はあったのだろうか",
+    "en": "I understand why the administration would track household and population counts, but did they really care about average people per household...?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0155.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0155.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C061",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0156",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "-は初年度でデータをとれなかったの意味？",
+    "en": "Does “-” mean they couldn't collect data in the first year?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0156.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0156.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C039",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0157",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "ときどき一戸平均が半分になる「戸」の数え方ちがう？",
+    "en": "Sometimes the average per household gets cut in half — are they counting “households” differently?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0157.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0157.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C022",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0158",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "エクセルみたいに縦横の線を入れた方が見やすいかも",
+    "en": "It might be easier to read if they added vertical and horizontal lines like in Excel."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0158.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0158.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C062",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0159",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "この年は“－”がつかない",
+    "en": "This year doesn't have a “-”."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0159.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0159.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C063",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0160",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "データとれていないが、“…”の記号になっている（“－”）でない",
+    "en": "The data isn't available, but it uses the symbol “...” instead of “-”."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0160.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0160.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C063",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0161",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "人口が多いと子供が多いというわけではなさそう",
+    "en": "It doesn't seem like having a larger population necessarily means having more children."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0161.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0161.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0162",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "この年だけ一戸平均少ない",
+    "en": "Only this year has a low average per household."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0162.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0162.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C064",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0163",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "東川町だけ人が多すぎるので行政単位の作り方が？？っている",
+    "en": "Higashikawa-cho has way too many people, so Im confused about how the administrative units were drawn."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0163.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0163.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C065",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0164",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "異常値",
+    "en": "Outlier."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0164.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0164.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0165",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "これも異常値？",
+    "en": "Is this an outlier too?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0165.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0165.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0166",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "人口を多く見せたい？あるいはすごく増えたと思ってる？",
+    "en": "Trying to make the population look bigger? Or do they really think it increased that much?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0166.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0166.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C066",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0167",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "戸数ふえたのに人口へっている",
+    "en": "The number of households increased, but the population decreased."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0167.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0167.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C009",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0168",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "この年まで戸数、人口は微増",
+    "en": "Up to this year, household and population counts increase only slightly."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0168.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0168.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C067",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0169",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "異常値？",
+    "en": "Outlier?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0169.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0169.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0170",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P09",
+   "value": {
+    "ja": "ここだけ一戸あたりの人の数の平均多くない？",
+    "en": "Isn't the average number of people per household unusually high only here?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0170.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0170.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C009",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0171",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "人口だけすごく減っている",
+    "en": "Only the population drops sharply."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0104"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0171.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0171.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C064",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0172",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P10",
+   "value": {
+    "ja": "ここだけ一戸平均少ない",
+    "en": "Only here is the average per household low."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0172.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0172.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C022",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0173",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM011-2",
+   "annotated_by": "P08",
+   "value": {
+    "ja": "一戸平均大きいのがふえた",
+    "en": "The number with a high average per household increased."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0105"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0173.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0173.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C005",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0174",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "改正たくさん",
+    "en": "Lots of revisions."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0174.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0174.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0175",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "へっている",
+    "en": "It's decreasing."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0175.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0175.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0176",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "乗車人数へっているのに収入ふえている？",
+    "en": "Why is revenue increasing even though passenger numbers are decreasing?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0176.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0176.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C005",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0177",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P12",
+   "value": {
+    "ja": "急増",
+    "en": "Sharp increase."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0177.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0177.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0178",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "なぜデータがない？収入0円？",
+    "en": "Why is there no data? Zero revenue?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0178.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0178.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C016",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0179",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "へっている",
+    "en": "It's decreasing."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0179.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0179.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C022",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0180",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "変化少ない",
+    "en": "Little change."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0180.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0180.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0181",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "なぜ減った？",
+    "en": "Why did it decrease?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0181.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0181.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C060",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0182",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P12",
+   "value": {
+    "ja": "車両数は何に依存？",
+    "en": "What does the number of cars depend on?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0182.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0182.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0183",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "ビークのずれ",
+    "en": "The peaks are offset."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0183.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0183.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C025",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0184",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "運転しすぎてこわれた？",
+    "en": "Did they overrun them and break them?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0184.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0184.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C012",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0185",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P12",
+   "value": {
+    "ja": "ブラック開始",
+    "en": "Start of black-company conditions."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0185.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0185.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C021",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0186",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "<",
+    "en": "<"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0186.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0186.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C002",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0187",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": ">",
+    "en": ">"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0187.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0187.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C002",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0188",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "<",
+    "en": "<"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0188.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0188.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C002",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0189",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "3倍",
+    "en": "3x"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0189.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0189.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0190",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "1/3",
+    "en": "1/3"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0190.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0190.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0191",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "2倍",
+    "en": "2x"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0191.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0191.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0192",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "1/5",
+    "en": "1/5"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0192.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0192.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0193",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "1/2",
+    "en": "1/2"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0193.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0193.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0194",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "-7",
+    "en": "-7"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0194.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0194.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0195",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "-2",
+    "en": "-2"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0195.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0195.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0196",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "600",
+    "en": "600"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0196.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0196.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C068",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0197",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "めっちゃ人数多い",
+    "en": "So many people."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0197.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0197.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0198",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "教員に女性はいない！",
+    "en": "There are no female teachers!"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0198.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0198.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C069",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0199",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "同じ人が担当しているのかな？（）の使い方が違うな",
+    "en": "I wonder if the same person is handling both? The way parentheses are used is different."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0199.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0199.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C070",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0200",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "女性3名すごい",
+    "en": "Three women — impressive."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0200.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0200.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C071",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0201",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "この列にかくべき？",
+    "en": "Should this be written in this column?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0201.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0201.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C072",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0202",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "大学院生いた。女の人どうせゼロだから？",
+    "en": "There were graduate students. Because of course the number of women would be zero?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0202.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0202.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C073",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0203",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "これさすがにおかしい。このデータは間に受けられない",
+    "en": "This is obviously strange. I can't take this data at face value."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0203.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0203.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0204",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "紙の節約？",
+    "en": "Saving paper?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0204.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0204.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C074",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0205",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "第2次ベビーブームだから人数増えた？",
+    "en": "Did the numbers go up because of the second baby boom?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0205.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0205.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0206",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "短大はデータにないのか",
+    "en": "Is there no data for junior colleges?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0206.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0206.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C018",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0207",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "短大はもっと早い？",
+    "en": "Did junior colleges come earlier?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0207.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0207.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C075",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0208",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "S45~47は内訳ないのか",
+    "en": "No breakdown for S45–47?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0208.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0208.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C016",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0209",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "共通資料って何？",
+    "en": "What does “common source” mean?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0209.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0209.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C035",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0210",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "出典が大学からではないんだ",
+    "en": "So the source isn't from the university."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0210.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0210.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C035",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0211",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "同じ表なのに「（）」の使い方がちがう",
+    "en": "Even though it's the same table, the way parentheses are used is different."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0211.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0211.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C015",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0212",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "二類って何？",
+    "en": "What is “Category II”?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1213"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0212.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0212.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C024",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0213",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "市民参加ならでは。リストしたり",
+    "en": "This is exactly what citizen participation brings. Making lists and all."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0213.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0213.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C022",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0214",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "なぜ普通科とか科制にわけない？",
+    "en": "Why don't they divide it by general course and specialized tracks or departments?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0214.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0214.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C018",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0215",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "いあい しらゆり ラサール 函大はくりょう ゆうと おおつま せいしょう",
+    "en": "Iai, Shirayuri, La Salle, Hakodai Hakuryo, Yuto, Otsuma, Seisho."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0215.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0215.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C076",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0216",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "・中部・西・(商)・(工)(水産)のち北陵",
+    "en": "Chubu, Nishi, (Commerce), (Industry), (Fisheries), then Hokuryo."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0216.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0216.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C076",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0217",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "北・東",
+    "en": "Kita, Higashi."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0217.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0217.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C076",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0218",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "カッコのまちがい？",
+    "en": "Wrong parentheses?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0218.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0218.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C039",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0219",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "一緒？",
+    "en": "Same?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0219.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0219.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C008",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0220",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "合計あわない",
+    "en": "The totals don't match."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0220.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0220.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C077",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0221",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "高校教員女子多い",
+    "en": "Lots of female high school teachers."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0221.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0221.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C037",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0222",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "女性で仕事するなら教員だった",
+    "en": "If a woman worked, she was a teacher."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0222.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0222.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C010",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0223",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "中カッコは活字としてこの長さしかない",
+    "en": "Maybe that middle brace only exists in this length in print."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0223.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0223.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C078",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0224",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "女性が多くなってる",
+    "en": "There are more women now."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0224.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0224.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C020",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0225",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "s40~41あたりで女子が2000とかふえている",
+    "en": "Around S40–41, the number of girls increases by something like 2,000."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0225.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0225.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C007",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0226",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-2",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "建物は1つ→校数",
+    "en": "One building → number of schools."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1212"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0226.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0226.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C015",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0227",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "生まれたのはそれより 15年前: 12年前: 第二次ベビーブームの人たち",
+    "en": "Those people would have been born 15 years earlier — or 12 years earlier: the second baby boom generation."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0227.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0227.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C033",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0228",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "私立中が1コなくなった！",
+    "en": "One private junior high disappeared!"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0228.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0228.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C079",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0229",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "国立中学があるからイナカじゃない感がある",
+    "en": "Having a national junior high makes it feel less rural."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0229.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0229.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C071",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0230",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "いあい、しらゆり、ラサールはまだ函大附？",
+    "en": "Are Iai, Shirayuri, and La Salle still affiliated with Hakodai?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0230.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0230.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C076",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0231",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "新制とすべてついている",
+    "en": "Everything is labeled “new system.”"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0231.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0231.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C026",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0232",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P15",
+   "value": {
+    "ja": "私立は女性教員が多い",
+    "en": "Private schools have more female teachers."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0232.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0232.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C025",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0233",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "2校にしては少なすぎ？",
+    "en": "Isn't that way too few for two schools?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0233.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0233.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C080",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0234",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "工業高校に流れた？農業に流れた？",
+    "en": "Did they go to industrial high schools? Agricultural high schools?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0234.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0234.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C022",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0235",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "s37-39多い 高校のやつと比べて... 女子はキープ男子は高校でへる なぜ？",
+    "en": "S37–39 are high; compared with the high school data... girls stay steady, boys drop in high school — why?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0235.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0235.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C081",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0236",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "遺愛と白百合のみ！",
+    "en": "Only Iai and Shirayuri!"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0236.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0236.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C082",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0237",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "なぞ",
+    "en": "Mystery."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0237.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0237.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C023",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0238",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM013-3",
+   "annotated_by": "P14",
+   "value": {
+    "ja": "激減",
+    "en": "Dramatic drop."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1211"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0238.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0238.png",
+   "codings": [
+    {
+     "type": "Coding",
+     "code": "CS01/C023",
+     "coder": [
+      "hs",
+      "kn"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ANT0239",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "この頃消防車とかあったのか？火消し？",
+    "en": "Did they even have fire engines back then? Or was it all bucket brigades?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1120"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0239.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0239.png"
+  },
+  {
+   "id": "ANT0240",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM009-1",
+   "annotated_by": "P03",
+   "value": {
+    "ja": "昭和49.50.51と火事騒がぐっと減る 定義変わった？",
+    "en": "Fires drop sharply in Showa 49, 50, and 51. Did the definition change?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG1121"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0240.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0240.png"
+  },
+  {
+   "id": "ANT0241",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "料金改正のせい？",
+    "en": "Because of the rate revision?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0241.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0241.png"
+  },
+  {
+   "id": "ANT0242",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P13",
+   "value": {
+    "ja": "下がってる",
+    "en": "It's going down."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0242.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0242.png"
+  },
+  {
+   "id": "ANT0243",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P12",
+   "value": {
+    "ja": "ブラック終了？",
+    "en": "Did exploitative labor finally end?"
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0243.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0243.png"
+  },
+  {
+   "id": "ANT0244",
+   "type": [
+    "Annotation",
+    "WrittenAnnotation"
+   ],
+   "created_in": "SUM012-1",
+   "annotated_by": "P11",
+   "value": {
+    "ja": "3倍強",
+    "en": "A little over three times as much."
+   },
+   "annotation_timing": "in_session",
+   "annotated_on": [
+    "PAG0655"
+   ],
+   "img_file_path": "/statistical-data/img-at/ANN-0244.png",
+   "nc_img_file_path": "/statistical-data/img-at-nc/ANN-0244.png"
+  }
+ ]
+}

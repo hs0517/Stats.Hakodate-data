@@ -1,0 +1,109 @@
+{
+ "@context": "../context.jsonld",
+ "@graph": [
+  {
+   "id": "book",
+   "type": "Instrument",
+   "name": {
+    "ja": "書籍",
+    "en": "Book"
+   }
+  },
+  {
+   "id": "ipad-8th-gen",
+   "type": "Instrument",
+   "name": {
+    "ja": "iPad（第8世代）",
+    "en": "iPad (8th generation)"
+   }
+  },
+  {
+   "id": "apple-pencil",
+   "type": "Instrument",
+   "name": {
+    "ja": "Apple Pencil（第1世代）",
+    "en": "Apple Pencil (1st generation)"
+   }
+  },
+  {
+   "id": "projector",
+   "type": "Instrument",
+   "name": {
+    "ja": "プロジェクター",
+    "en": "Projector"
+   }
+  },
+  {
+   "id": "panel-a0",
+   "type": "Instrument",
+   "name": {
+    "ja": "パネル（A0）",
+    "en": "Panel (A0)"
+   }
+  },
+  {
+   "id": "panel-a1",
+   "type": "Instrument",
+   "name": {
+    "ja": "パネル（A1）",
+    "en": "Panel (A1)"
+   }
+  },
+  {
+   "id": "printed-table-a0",
+   "type": "Instrument",
+   "name": {
+    "ja": "印刷した表（A0）",
+    "en": "Printed table (A0)"
+   }
+  },
+  {
+   "id": "printed-table-a1",
+   "type": "Instrument",
+   "name": {
+    "ja": "印刷した表（A1）",
+    "en": "Printed table (A1)"
+   }
+  },
+  {
+   "id": "ddrpp-magnets-02",
+   "type": "Instrument",
+   "name": {
+    "ja": "DDrPP（Data Dressing and Prompted Physicality）",
+    "en": "DDrPP (Data Dressing and Prompted Physicality)"
+   }
+  },
+  {
+   "id": "sticky-note",
+   "type": "Instrument",
+   "name": {
+    "ja": "付箋",
+    "en": "Sticky note"
+   }
+  },
+  {
+   "id": "whiteboard",
+   "type": "Instrument",
+   "name": {
+    "ja": "ホワイトボード（60 cm × 80 cm 程度）",
+    "en": "Whiteboard (approx. 60 cm × 80 cm)"
+   }
+  },
+  {
+   "id": "marker-pen-oil",
+   "type": "Instrument",
+   "name": {
+    "ja": "油性マーカーペン",
+    "en": "Oil-based marker pen"
+   }
+  },
+  {
+   "id": "marker-pen-water",
+   "type": "Instrument",
+   "name": {
+    "ja": "水性マーカーペン",
+    "en": "Water-based marker pen"
+   }
+  }
+ ]
+}
